@@ -1,6 +1,6 @@
 # Bem vindo!
 
-🇻
+
 * Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
 * Tenho 21 anos e estudo Desenvolvimento de Sistemas. Pretendo fazer uso da tecnologia como meio de apoio às pessoas;
