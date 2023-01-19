@@ -1,4 +1,4 @@
-# Bem vindo! :vatican_city:
+# Bem vindo!
 
 ** Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
@@ -9,3 +9,4 @@
 ** Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 
 
+:vatican_city:
