@@ -8,4 +8,3 @@
 
 ** Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 
-🇻🇦
