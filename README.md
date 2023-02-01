@@ -5,7 +5,7 @@
 
 * 📚 Tenho 21 anos e estudo Desenvolvimento de Sistemas. Pretendo fazer uso da tecnologia como meio de apoio às pessoas;
 
-* 📍 Atualmente estou focado no Front-End. Pretendo expandir o mesmo e conhecer o Back-End;
+* 📍 Atualmente estou focado no Desenvolvimento Fullstack;
 
 * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 
