@@ -12,3 +12,9 @@
 
   * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 </div>
+
+![Snake animation](https://github.com/daviebatista/daviebatista/blob/output/github-contribution-grid-snake.svg)
+  
+  
+  
+![](https://komarev.com/ghpvc/?username=daviebatista)
