@@ -4,7 +4,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight">
 </p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight">
-<p align="left">
+<p align="right">
   
 </p>
 * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
