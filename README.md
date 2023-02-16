@@ -5,7 +5,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight" align="right">
 </div>
 
-<h1>
+<h2 align="center">
 * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
 * 📚 Tenho 21 anos e estudo Desenvolvimento de Sistemas. Pretendo fazer uso da tecnologia como meio de apoio às pessoas;
