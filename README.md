@@ -1,7 +1,8 @@
 # Bem vindo!
 
-<img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight" align="center">
-
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight">
+</p>
 
 * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
