@@ -1,9 +1,12 @@
 # Bem vindo!
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight">
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight">
 </p>
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight">
+<p align="left">
+  
+</p>
 * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
 * 📚 Tenho 21 anos e estudo Desenvolvimento de Sistemas. Pretendo fazer uso da tecnologia como meio de apoio às pessoas;
@@ -14,4 +17,3 @@
 
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
