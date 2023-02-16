@@ -1,10 +1,10 @@
 # Bem vindo!
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight" align="left" width=500>
+  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight" align="left" width=490>
 </div>
 <div>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight" align="right" width=500>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight" align="right" width=490>
 </div>
 
 <div>
