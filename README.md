@@ -13,6 +13,6 @@
   * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 </div>
 
-<div>
+<div align="center">
   <img src="https://komarev.com/ghpvc/?username=daviebatista"  align="center">
 </div>
