@@ -1,5 +1,3 @@
-# Bem vindo!
-
 <p align="center">
   <a>
     <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Bem%20vindo!+%F0%9F%A7%90;Meu+nome+%C3%A9+Davi+Batista.;Confira+meus+projetos!&center=true&size=28">
