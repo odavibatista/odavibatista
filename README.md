@@ -1,6 +1,6 @@
 # Bem vindo!
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 
 * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
@@ -12,4 +12,4 @@
 * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+
