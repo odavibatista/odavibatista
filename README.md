@@ -1,9 +1,9 @@
 # Bem vindo!
 
-<p align="center">
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight" align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&langs_count=8&layout=compact&theme=tokyonight" align="right">
-</p>
+</div>
 
 * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
