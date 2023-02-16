@@ -9,3 +9,4 @@
 
 * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=daviebatista)](https://github.com/anuraghazra/github-readme-stats)
