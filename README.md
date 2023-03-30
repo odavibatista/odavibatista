@@ -17,5 +17,6 @@
 </div>
 
 <div align="center">
+  <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
   <img src="https://komarev.com/ghpvc/?username=daviebatista"  align="center">
 </div>
