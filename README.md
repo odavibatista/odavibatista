@@ -1,7 +1,8 @@
 <p align="center">
-   
-  <img src="https://user-images.githubusercontent.com/91736880/233788408-0970dc17-5ac5-4d73-8069-48a125ddfb3f.png"  align="center">
-  <h3 align="center">Santo Isidoro de Sevilha</h3>
+    <a>
+    <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Bem%20vindo!+%F0%9F%A7%90;Meu+nome+%C3%A9+Davi+Batista.;Confira+meus+projetos!&center=true&size=28">
+  </a>
+  
 </p>
 <div>
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=tokyonight" align="left" width="400" height="250">
