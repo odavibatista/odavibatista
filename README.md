@@ -9,6 +9,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
 </div>
 
+
+
   * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
   * 📚 Tenho 21 anos e estudo Desenvolvimento de Sistemas. Pretendo fazer uso da tecnologia como meio de apoio às pessoas;
@@ -16,6 +18,8 @@
   * 📍 Atualmente estou focado no Desenvolvimento Fullstack;
 
   * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
+
+
 
 
 <div align="center">
