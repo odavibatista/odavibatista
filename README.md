@@ -6,8 +6,8 @@
 </p>
 <div>
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true" align="left" width="420" height="250">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" align="right" width="400" height="250">
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="400" height="250" align="left">
+</div>
   * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
   * 📚 Tenho 21 anos e estudo Desenvolvimento de Sistemas. Pretendo fazer uso da tecnologia como meio de apoio às pessoas;
@@ -15,7 +15,7 @@
   * 📍 Atualmente estou focado no Desenvolvimento Fullstack;
 
   * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
-</div>
+
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/91736880/233788408-0970dc17-5ac5-4d73-8069-48a125ddfb3f.png"  align="center">
