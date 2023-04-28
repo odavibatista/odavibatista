@@ -9,7 +9,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
 </div>
 
+<br>
 
+<br>
 
   * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
@@ -19,8 +21,9 @@
 
   * 📱 Pretendo me aprofundar no desenvolvimento mobile e atuar em projetos de modo colaborativo para obter conhecimentos;
 
+<br>
 
-
+<br>
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/91736880/233788408-0970dc17-5ac5-4d73-8069-48a125ddfb3f.png"  align="center">
