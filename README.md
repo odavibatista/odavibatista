@@ -3,6 +3,8 @@
     <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Bem%20vindo!+%F0%9F%A7%90;Meu+nome+%C3%A9+Davi+Batista.;Confira+meus+projetos!&center=true&size=28">
   </a>
   
+    <br>
+    
 </p>
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true" width="420">
