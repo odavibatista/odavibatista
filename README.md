@@ -6,7 +6,7 @@
 </p>
 <div align="left" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true" width="420">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="420">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="370">
 </div>
   * 👋 Meu nome é Davi, mas meus amigos me chamam de Davie. 
 
