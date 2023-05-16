@@ -1,8 +1,5 @@
-<p align="center">
-    <a>
-    <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+profile!+%F0%9F%A7%90;My+name+is+Davi+Batista.;Check+out+my+projects!&center=true&size=28">
-  </a>
-  <div width="600px" align="center">
+#   Howdy!
+  <div>
     <p font-size="26px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
         <br>
         I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
