@@ -4,7 +4,9 @@
   
 My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
 <br>
+<br>
 I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
+<br>
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 
