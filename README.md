@@ -13,7 +13,6 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
   
-<br>
 <div align="center" width="400px">
     <h1>Tech Stacks</h1>
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
