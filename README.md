@@ -50,17 +50,3 @@ My goal is to acquire as much knowledge as I can, hoping to be an expert develop
 </div>
 <br>
 
-
-
-
-<br>
-
-<br>
-
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/91736880/233788408-0970dc17-5ac5-4d73-8069-48a125ddfb3f.png"  align="center">
-  <h3 align="center">Sancti Isidori Hispalensis, ora pro nobis.</h3>
-
-  <br>
-
-</div>
