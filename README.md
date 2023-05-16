@@ -2,15 +2,7 @@
     <a>
     <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+profile!+%F0%9F%A7%90;My+name+is+Davi+Batista.;Check+out+my+projects!&center=true&size=28">
   </a>
-  
-    
-</p>
-<div align="center" width="800px">
-  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
-</div>
-<br>
-<div width="600px" align="center">
+  <div width="600px" align="center">
     <p font-size="26px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
         <br>
         I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
@@ -19,6 +11,14 @@
     </p>
 </div>
 <br>
+  
+</p>
+<div align="center" width="800px">
+  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
+</div>
+<br>
+
 
 <div align="center" width="400px">
     <h2>Some stuff I use</h1>
