@@ -10,7 +10,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
 </div>
 
-<div align="center" width="600px">
+<div width="600px">
 <p width="600px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil. I'm a code developer who tries to improve and evolve bothly as person and professional every single day. My goal is to acquire as much knowledge as I can, hoping to be an expert developer.</p>
 </div>
 <br>
