@@ -41,7 +41,7 @@
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/91736880/233788408-0970dc17-5ac5-4d73-8069-48a125ddfb3f.png"  align="center">
-  <h3 align="center">Santo Isidoro de Sevilha, padroeiro dos programadores e da computação, rogai por nós!</h3>
+  <h3 align="center">Sancti Isidori Hispalensis, ora pro nobis.</h3>
   <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
   <br>
   <img src="https://komarev.com/ghpvc/?username=daviebatista"  align="center">
