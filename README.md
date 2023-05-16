@@ -1,7 +1,8 @@
 #   Howdy!
 
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blueviolet&style=for-the-badge">
-  
+
+<p align="center">
 My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
 <br>
 <br>
@@ -9,7 +10,7 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
-
+</p>
 </p>
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
