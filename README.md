@@ -1,4 +1,6 @@
 #   Howdy!
+
+  <img src="https://komarev.com/ghpvc/?username=daviebatistacolor=blueviolet">
   <div>
     <p font-size="26px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
         <br>
@@ -52,5 +54,5 @@
   <h3 align="center">Sancti Isidori Hispalensis, ora pro nobis.</h3>
   <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
   <br>
-  <img src="https://komarev.com/ghpvc/?username=daviebatistacolor=black"  align="center">
+
 </div>
