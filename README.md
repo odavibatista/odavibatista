@@ -52,5 +52,5 @@
   <h3 align="center">Sancti Isidori Hispalensis, ora pro nobis.</h3>
   <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
   <br>
-  <img src="https://komarev.com/ghpvc/?username=daviebatistacolor=purple"  align="center">
+  <img src="https://komarev.com/ghpvc/?username=daviebatistacolor=black"  align="center">
 </div>
