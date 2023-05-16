@@ -8,8 +8,9 @@
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
-  <p>My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil. I'm a code developer who tries to improve and evolve bothly as person and professional every single day. My goal is to acquire as much knowledge as I can, hoping to be an expert developer. I'm currently studing on OneBitCode PRO and acquiring my bachelor degree on Cruzeiro Do Sul University.</p>
 </div>
+
+<p>My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil. I'm a code developer who tries to improve and evolve bothly as person and professional every single day. My goal is to acquire as much knowledge as I can, hoping to be an expert developer. I'm currently studing on OneBitCode PRO and acquiring my bachelor degree on Cruzeiro Do Sul University.</p>
 
 <br>
 
