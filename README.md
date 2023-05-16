@@ -1,6 +1,6 @@
 #   Howdy!
 
-  <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blueviolet&for-the-badge">
+  <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blueviolet&style=for-the-badge">
   <div>
     <p font-size="26px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
         <br>
