@@ -2,7 +2,7 @@
 
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blueviolet&style=for-the-badge">
 
-<p align="center">
+<p>
 My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
 <br>
 <br>
@@ -12,16 +12,8 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
 <br>
-
-<div align="center" width="800px">
-  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
-</div>
-<br>
-
-
 <div align="center" width="400px">
-    <h2>Some stuff I use</h1>
+    <h1>Some stuff I use</h1>
     <h4>Front-end stacks</h4>
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
@@ -43,9 +35,16 @@ My goal is to acquire as much knowledge as I can, hoping to be an expert develop
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-    
+    <br>
 </div>
+<div align="center" width="800px">
+  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
+</div>
+<br>
+
+
+
 
 <br>
 
