@@ -1,6 +1,6 @@
 <p align="center">
     <a>
-    <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Bem%20vindo!+%F0%9F%A7%90;Meu+nome+%C3%A9+Davi+Batista.;Confira+meus+projetos!&center=true&size=28">
+    <img align="center" src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+profile!+%F0%9F%A7%90;My+name+is+Davi+Batista.;Check+out+my+projects!&center=true&size=28">
   </a>
   
     
