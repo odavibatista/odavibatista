@@ -2,8 +2,9 @@
 
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blueviolet&style=for-the-badge">
 
+<br>
 <p>
-My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
+My name is Davi Batista. I'm a Fullstack Web Developer, and also a Graphic and Web Designer who lives in São Paulo, Brazil.
 <br>
 <br>
 I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
@@ -11,6 +12,10 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
+</div>
+  
 <br>
 <div align="center" width="400px">
     <h1>Some stuff I use</h1>
@@ -35,8 +40,10 @@ My goal is to acquire as much knowledge as I can, hoping to be an expert develop
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-    <br>
 </div>
+
+<br>
+
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
@@ -53,7 +60,7 @@ My goal is to acquire as much knowledge as I can, hoping to be an expert develop
 <div align="center">
     <img src="https://user-images.githubusercontent.com/91736880/233788408-0970dc17-5ac5-4d73-8069-48a125ddfb3f.png"  align="center">
   <h3 align="center">Sancti Isidori Hispalensis, ora pro nobis.</h3>
-  <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
+
   <br>
 
 </div>
