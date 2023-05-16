@@ -11,7 +11,7 @@
 </div>
 <br>
 <div width="600px" align="center">
-    <p font-size="16px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
+    <p font-size="26px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
         <br>
         I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
         <br>
