@@ -3,8 +3,10 @@
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blueviolet&style=for-the-badge">
   
 My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
+<br>
 I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
- My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
+<br>
+My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 
 </p>
 <div align="center" width="800px">
