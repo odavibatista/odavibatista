@@ -12,9 +12,6 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
-</div>
   
 <br>
 <div align="center" width="400px">
