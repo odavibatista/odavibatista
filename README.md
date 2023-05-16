@@ -11,7 +11,8 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
-</p>
+<br>
+
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
