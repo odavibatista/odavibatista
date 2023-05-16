@@ -10,8 +10,7 @@
         My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
     </p>
 </div>
-<br>
-  
+
 </p>
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
