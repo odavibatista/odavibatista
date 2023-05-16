@@ -10,7 +10,9 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
-  
+<a href="">
+  <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
+</a>
 <div align="center" width="400px">
     <h1>Tech Stacks</h1>
     <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
