@@ -9,9 +9,9 @@
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=midnight-purple&include_all_commits=true" width="420">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=midnight-purple" width="375">
 </div>
-
+<br>
 <div width="600px" align="center">
-    <p>My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
+    <p font-size="16px">My name is Davi. I'm a fullstack web developer, and also a graphic and web designer who lives in São Paulo, Brazil.
         <br>
         I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
         <br>
