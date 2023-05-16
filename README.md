@@ -10,9 +10,15 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
-<a href="">
+<div align="center">
+  <a href="https://www.linkedin.com/in/davi-deosmar-batista-oliveira-miranda/">
   <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
 </a>
+<a href="https://discord.com/users/301873796200005633">
+  <img align="center" src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+</a>
+</div>
+
 <div align="center" width="400px">
     <h1>Tech Stacks</h1>
     <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
