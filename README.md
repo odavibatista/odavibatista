@@ -11,7 +11,7 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
 <div align="center">
-  <a href="https://www.linkedin.com/in/davi-deosmar-batista-oliveira-miranda/">
+  <a href="https://www.linkedin.com/in/-davi-batista/">
   <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
 </a>
 <a href="https://discord.com/users/301873796200005633">
