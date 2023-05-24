@@ -46,7 +46,7 @@ My goal is to acquire as much knowledge as I can, hoping to be an expert develop
 
 <div align="center" width="800px">
   <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=algolia&include_all_commits=true" width="420">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=algolia" width="375">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=algolia&count_private=true" width="375">
 </div>
 
 
