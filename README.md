@@ -10,6 +10,11 @@ I'm a code developer who tries to improve and evolve bothly as person and profes
 <br>
 My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
 </p>
+<a align="center" href="https://daviebatista.github.io/portfolio/">
+Check out my portfolio!
+</a>
+<br>
+<br>
 <div align="center">
   <a href="https://www.linkedin.com/in/-davi-batista/">
   <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
