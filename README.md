@@ -15,9 +15,6 @@
     Check out my portfolio!
     </a>
   </div>
-  <div align="right" width="400">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true">
-</div>
 </div>
 <br>
 <br>
@@ -56,7 +53,9 @@
 
 <br>
 
-
+  <div align="center" width="600">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true">
+</div>
 
 
 
