@@ -1,18 +1,24 @@
 #   Howdy!
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blue&style=for-the-badge">
-
-<p>
-My name is Davi Batista. I'm a Fullstack Web Developer, and also a Graphic and Web Designer who lives in São Paulo, Brazil.
-<br>
-<br>
-I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
-<br>
-<br>
-My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
-</p>
-<a align="center" href="https://daviebatista.github.io/portfolio/">
-Check out my portfolio!
-</a>
+<div align="center" width="100%">
+  <div align="left" width="375">
+    <p>
+    My name is Davi Batista. I'm a Fullstack Web Developer, and also a Graphic and Web Designer who lives in São Paulo, Brazil.
+    <br>
+    <br>
+    I'm a code developer who tries to improve and evolve bothly as person and professional every single day.
+    <br>
+    <br>
+    My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
+    </p>
+    <a align="center" href="https://daviebatista.github.io/portfolio/">
+    Check out my portfolio!
+    </a>
+  </div>
+  <div align="right" width="400">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true">
+</div>
+</div>
 <br>
 <br>
 <div align="center">
@@ -50,10 +56,7 @@ Check out my portfolio!
 
 <br>
 
-<div align="center" width="800px">
-  <img src="https://github-readme-stats.vercel.app/api?username=daviebatista&show_icons=true&theme=algolia&include_all_commits=true" width="420">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=4&theme=algolia&count_private=true" width="375">
-</div>
+
 
 
 
