@@ -1,6 +1,6 @@
 #   Howdy!
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blue&style=for-the-badge">
-    <img src="https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif" title="hello" width="350"align="right" alt="Hello, there!">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true" title="hello" width="350"align="right" alt="Hello, there!">
   <div align="left" width="375">
     <p>
     My name is Davi Batista. I'm a Fullstack Web Developer, and also a Graphic and Web Designer who lives in São Paulo, Brazil.
@@ -52,12 +52,3 @@
     <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
      <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
 </div>
-
-<br>
-
-  <div align="center" width="600">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true">
-</div>
-
-
-
