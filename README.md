@@ -1,8 +1,8 @@
 <h1>Howdy!</h1>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true" width="325"align="right"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true" width="300"align="right"/>
   <div align="left" width="375">
     <p>
-    My name is Davi Batista. I'm a Fullstack Web Developer and UI Designer who lives in São Paulo, Brazil, who tries to improve and evolve bothly as person and professional every single day. My goal is to acquire as much knowledge as I can, hoping to become an expert on code
+    My name is Davi Batista. I'm a Fullstack Web Developer and UI Designer who lives in São Paulo, Brazil, who tries to improve and evolve bothly as person and professional every single day.
     </p>
     
 <div align="left">
