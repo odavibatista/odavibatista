@@ -1,28 +1,25 @@
-#   Howdy!
-<br>
+<h1>Howdy!</h1>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviebatista&layout=compact&langs_count=6&theme=algolia&count_private=true" width="350"align="right"/>
   <div align="left" width="375">
     <p>
-    My name is Davi Batista. I'm a Fullstack Web Developer, and also a Graphic and Web Designer who lives in São Paulo, Brazil, who tries to improve and evolve bothly as person and professional every single day. My goal is to acquire as much knowledge as I can, hoping to become an expert on code
+    My name is Davi Batista. I'm a Fullstack Web Developer and UI Designer who lives in São Paulo, Brazil, who tries to improve and evolve bothly as person and professional every single day. My goal is to acquire as much knowledge as I can, hoping to become an expert on code
     </p>
-    <br>
+    
+<div align="left">
+  <a href="https://www.linkedin.com/in/-davi-batista/">
+    <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
+  </a>
+  <a href="https://discord.com/users/301873796200005633">
+    <img align="center" src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+<br>
+<br>
     <a align="center" href="https://daviebatista.github.io/portfolio/">
     Check out my portfolio!
-    </a>
-  </div>
-
-
-<br>
-<br>
-<div align="center">
-  <a href="https://www.linkedin.com/in/-davi-batista/">
-  <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
-</a>
-<a href="https://discord.com/users/301873796200005633">
-  <img align="center" src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-</a>
+    </a>      
 </div>
 
+  </div>
 <div align="center" width="400px">
     <h2>Tech Stacks</h2>
     <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
