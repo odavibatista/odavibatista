@@ -1,6 +1,6 @@
 #   Howdy!
   <img src="https://komarev.com/ghpvc/?username=daviebatista&color=blue&style=for-the-badge">
-<div align="center" width="100%">
+    <img src="https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif" title="hello" width="350"align="right" alt="Hello, there!">
   <div align="left" width="375">
     <p>
     My name is Davi Batista. I'm a Fullstack Web Developer, and also a Graphic and Web Designer who lives in São Paulo, Brazil.
@@ -11,11 +11,13 @@
     <br>
     My goal is to acquire as much knowledge as I can, hoping to be an expert developer.
     </p>
+    <br>
     <a align="center" href="https://daviebatista.github.io/portfolio/">
     Check out my portfolio!
     </a>
   </div>
-</div>
+
+
 <br>
 <br>
 <div align="center">
