@@ -1,0 +1,94 @@
+@import '../../../../styles.scss';
+
+.indexPage  {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.informationContainer   {
+    display: flex;
+    flex-direction: column;
+    font-family: $q;
+    gap: 2px;
+    margin: 0px -30px;
+}
+
+.myNameIs   {
+    font-size: 36px;
+    margin-left: -2px;
+}
+
+.myName {
+    color: $cBlue;
+    font-family: $o;
+    font-size: 68px;
+    font-weight: bolder;
+    margin-left: -2px;
+    margin-top: -40px;
+}
+
+.occupation {
+    color: $dark;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -35px;
+}
+
+.blueLine   {
+    background-color: $cBlue;
+    height: 2px;
+    margin-top: -10px;
+}
+
+.iconsDiv   {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.animationContainer {
+    margin-right: -80px;
+    width: 40%;
+}
+
+@media  (max-width: 767px) {
+    .myNameIs   {
+        font-size: 24px;
+    }
+
+    .myName {
+        font-size: 48px;
+    }
+
+    .occupation {
+        font-size: 14px;
+    }
+}
+
+@media  (max-width: 676px)  {
+    .indexPage {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .informationContainer   {
+        align-items: center;
+    }
+
+    .animationContainer {
+        width: 60%;
+        margin-right: 0px;
+    }
+
+    .blueLine   {
+        width: 100%;
+    }
+}

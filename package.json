@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
     "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
     "lottie-web": "^5.12.2",
     "ngx-lottie": "^10.0.0",
     "ngx-splide": "^2.0.2",

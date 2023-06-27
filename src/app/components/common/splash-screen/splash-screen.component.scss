@@ -1,12 +1,11 @@
 :host {  
-    height: 30%;
-    overflow: hidden;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    width: 100%;
+}
+.lottieContainer    {
+    width: 100%;
 }
 .lottiePic  {
-    width: 500px;
+    width: 100%;
 }
+
