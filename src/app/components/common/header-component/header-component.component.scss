@@ -1,0 +1,51 @@
+@import '../../../../styles.scss';
+
+.navigation {
+    background-color: $dark;
+    flex-direction: row;
+    height: 79px;
+    padding: 0px 86px;
+}
+
+.navImage   {
+    width: 59px;
+}
+
+#talkToMe   {
+    background-color: $lBlue;
+    border-radius: 8px;
+    color: $dark;
+    font-weight: bold;
+    height: 40px;
+    text-align: center;
+    width: 174px;
+
+    transition: 0.3s;
+    &:hover {
+        background-color: $dark;
+        color: $light;
+    }
+}
+
+.nav-link   {
+    color: $cBlue;
+    font-family: $q;
+    font-size: 16px;
+
+    transition: 0.3s;
+    &:hover {
+        color: $lBlue;
+    }
+}
+
+.navigationItems    {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.linksGap   {
+    gap: 24px;
+}
+

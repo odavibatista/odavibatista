@@ -1,1 +1,27 @@
-<h1>header-component works!</h1>
+<nav class="navbar navbar-expand-lg container-fluid sticky-top navigation">
+    <a class="navbar-brand" routerLink="/">
+        <img src="../../../../icon.png" alt="" class="navImage">
+    </a>
+    <button id="nav-button" class="position-relative navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+        <ul class="navbar-nav linksGap me-auto">
+            <li class="nav-item">
+                <a routerLink="/about" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/services" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/projects" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="" class="nav-link">Currículo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="talkToMe" routerLink="/talk+to+me">Fale comigo!</a>
+            </li>
+        </ul>
+    </div>
+</nav>
