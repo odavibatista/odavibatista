@@ -49,3 +49,14 @@
     gap: 24px;
 }
 
+@media  (max-width: 767px)  {
+    .navigation {
+        padding: 0px 136px;
+    }
+}
+
+@media  (max-width: 400px)  {
+    .navigation {
+        padding: 0px 86px;
+    }
+}

@@ -44,3 +44,18 @@
         width: 54px;
     }
 }
+@media  (max-width: 676px)  {
+    .pageFooter {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .logoDiv    {
+        margin-top: 10px;
+
+        img {
+            margin-left: 5px;
+            width: 25px;
+        }
+    }
+}
