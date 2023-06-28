@@ -158,17 +158,21 @@
 }
 
 #frontEnd   {
-    display: none;
+    display: grid;
     margin: 25px 0px;
+    transition: 0.2s;
 }
 
 #backEnd    {
-    display: grid;
+    display: none;
     margin: 25px 0px;
+    transition: 0.2s;
 }
 
 #others {
     display: none;
+    margin: 65px 0px 64px 0px;
+    transition: 0.2s;
 }
 
 .techSelector   {
@@ -212,5 +216,40 @@
         color: $cBlue;
         height: 39px;
         width: 39px;
+    }
+}
+
+@media  (max-width: 991px)  {
+    .aboutSection   {
+        gap: 20px;
+    }
+
+    .techName   {
+        font-size: 10px;
+    }
+
+    .techImage  {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    .aboutSection   {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    .skillsDiv  {
+        align-self: center;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        width: 306px;
+    }
+
+    .techBtns   {
+        width: 80px;
     }
 }

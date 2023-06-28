@@ -39,7 +39,7 @@
                     </svg>
                     <h1 class="skillsTitle">Minhas Tecnologias</h1>
                 </span>
-                <div class="container text-center px-lg-5" id="frontEnd">
+                <div class="container text-center" id="frontEnd">
                     <div class="row g-0 justify-content-center">
                         <div class="col-sm-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="js" class="techImage">
@@ -148,9 +148,9 @@
                     </div>
                 </div>
                 <div class="techSelector">
-                    <button class="techBtns" id="frontEndBtn">Front-End</button>
-                    <button class="techBtns" id="backEndBtn">Back-End</button>
-                    <button class="techBtns" id="othersBtn">Outras</button>
+                    <button class="techBtns" id="frontEndBtn" (click)="(frontEnd())">Front-End</button>
+                    <button class="techBtns" id="backEndBtn" (click)="backEnd()">Back-End</button>
+                    <button class="techBtns" id="othersBtn" (click)="others()">Outras</button>
                 </div>
             </div>
         </div>
