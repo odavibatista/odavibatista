@@ -1,16 +1,19 @@
 @import '../../../../styles.scss';
 
 .aboutSection   {
+    
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     min-height: 100vh;
     margin: 0 -32px;
+    padding: 39px 0px;
 }
 
 .profileDiv {
     align-items: center;
-    border: 1px solid $dark;
     border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
     display: flex;
     flex-direction: column;
 }
@@ -108,4 +111,106 @@
     text-decoration: none;
     text-transform: uppercase;
     width: 100%;
+}
+
+.infoDiv    {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+}
+
+.skillsDiv  {
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
+    min-height: 306px;
+}
+
+.studyDiv   {
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
+    min-height: 100px;
+}
+
+.skillsTitle    {
+    color: $cBlue;
+    font-family: $o;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#alternatorContainer    {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto 10px auto;
+}
+
+.techImage  {
+    width: 40px;
+}
+
+.techName   {
+    font-family: $q;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+#frontEnd   {
+    display: none;
+    margin: 25px 0px;
+}
+
+#backEnd    {
+    display: grid;
+    margin: 25px 0px;
+}
+
+#others {
+    display: none;
+}
+
+.techSelector   {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.techBtns   {
+    border: none;
+    font-family: $q;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+    width: 102px;
+}
+
+#frontEndBtn    {
+    background-color: $dark;
+    border-radius: 15px 0px 0px 15px;
+    color: $lBlue;
+}
+
+#backEndBtn {
+    background-color: $lBlue;
+}
+
+#othersBtn  {
+    background-color: $lBlue;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.myTechs    {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    svg {
+        color: $cBlue;
+        height: 39px;
+        width: 39px;
+    }
 }
