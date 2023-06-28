@@ -1,0 +1,46 @@
+@import '../../../../styles.scss';
+
+.pageFooter {
+    align-self: center;
+    background-color: $light;
+    border-top: 2px solid $cBlue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto 0px auto;
+    padding: 15px 0px;
+    width: 86%;
+
+
+}
+
+.footerTexts    {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    a   {
+        color: $dark;
+        font-family: $q;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+
+.footerIcons    {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin-top: 10px;
+
+    svg {
+        width: 25px;
+    }
+}
+
+.logoDiv    {
+    margin-top: 45px;
+    img {
+        width: 54px;
+    }
+}

@@ -38,6 +38,9 @@ main    {
 
 .main-container {
     background-color: $light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
