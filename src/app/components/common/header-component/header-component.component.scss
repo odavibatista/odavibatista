@@ -49,14 +49,30 @@
     gap: 24px;
 }
 
-@media  (max-width: 767px)  {
-    .navigation {
-        padding: 0px 136px;
-    }
+#nav-button {
+    background-color: $cBlue;
+    color: $dark;
 }
 
-@media  (max-width: 400px)  {
+@media  (max-width: 991px)  {
+    #navbarSupportedContent {
+        background-color: $dark;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 0px 20px 20px 20px;
+        transition: 0.2s;
+        width: 100%;
+    }
+
+    .navImage   {
+        width: 53px;
+    }
+
+    .linksGap   {
+        gap: 4px;
+    }
+
     .navigation {
-        padding: 0px 86px;
+        padding: 0px 3%;
     }
 }
