@@ -1,26 +1,26 @@
-<nav class="navbar navbar-expand-lg container-fluid fixed-top navigation">
-    <a class="navbar-brand" routerLink="/">
+<nav class="navbar navbar-expand-lg container-fluid fixed-top navigation" >
+    <a class="navbar-brand" routerLink="/" (click)="adjustNavbarOnResolution()">
         <img src="../../../../icon.png" alt="" class="navImage">
     </a>
-    <button id="nav-button" class="position-relative navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="nav-button" class="position-relative navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="adjustNavbarOnResolution()">
         <span class="navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav linksGap">
             <li class="nav-item">
-                <a routerLink="/about" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Sobre</a>
+                <a routerLink="/about" class="nav-link" (click)="adjustNavbarOnResolution()">Sobre</a>
             </li>
             <li class="nav-item">
-                <a routerLink="/services" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Serviços</a>
+                <a routerLink="/services" class="nav-link" (click)="adjustNavbarOnResolution()">Serviços</a>
             </li>
             <li class="nav-item">
-                <a routerLink="/projects" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Projetos</a>
+                <a routerLink="/projects" class="nav-link" (click)="adjustNavbarOnResolution()">Projetos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Currículo</a>
+                <a class="nav-link" href="" class="nav-link" (click)="adjustNavbarOnResolution()">Currículo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="talkToMe" routerLink="/talk+to+me" data-bs-toggle="collapse">Fale comigo!</a>
+                <a class="nav-link" id="talkToMe" routerLink="/talk+to+me" (click)="adjustNavbarOnResolution()">Fale comigo!</a>
             </li>
         </ul>
     </div>

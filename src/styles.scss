@@ -87,3 +87,16 @@ main    {
         width: 50px;
     }
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: $dark; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: $cBlue;
+    transition: 0.3s;
+}
