@@ -21,7 +21,7 @@ export class AboutComponent {
     othersBtn.style.backgroundColor = "#C0EEF2"
     othersBtn.style.color = "#181823"
 
-    frontEndTechs.style.display = "grid"
+    frontEndTechs.style.display = "flex"
     backEndTechs.style.display = "none"
     otherTechs.style.display = "none"
   }
@@ -41,7 +41,7 @@ export class AboutComponent {
     othersBtn.style.color = "#181823"
 
     frontEndTechs.style.display = "none"
-    backEndTechs.style.display = "grid"
+    backEndTechs.style.display = "flex"
     otherTechs.style.display = "none"
   }
 
@@ -61,6 +61,6 @@ export class AboutComponent {
 
     frontEndTechs.style.display = "none"
     backEndTechs.style.display = "none"
-    otherTechs.style.display = "grid"
+    otherTechs.style.display = "flex"
   }
 }

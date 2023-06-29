@@ -1,12 +1,11 @@
 @import '../../../../styles.scss';
 
 .aboutSection   {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     min-height: 100vh;
-    margin: 0 -32px;
+    margin: 0 -38px;
     padding: 39px 0px;
 }
 
@@ -16,16 +15,13 @@
     box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
     display: flex;
     flex-direction: column;
+    width: 306px;
 }
 
-.studyDiv   {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+
 
 .avatar {
-    width: 306px;
+    width: 100%;
 }
 
 .profileName    {
@@ -93,7 +89,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 65px;
 }
 
 .certificates-and-design    {
@@ -125,11 +121,6 @@
     min-height: 306px;
 }
 
-.studyDiv   {
-    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
-    min-height: 100px;
-}
-
 .skillsTitle    {
     color: $cBlue;
     font-family: $o;
@@ -158,20 +149,34 @@
 }
 
 #frontEnd   {
-    display: grid;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     margin: 25px 0px;
+    padding: 0px 100px;
     transition: 0.2s;
 }
 
 #backEnd    {
+    align-items: center;
     display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     margin: 25px 0px;
+    padding: 0px 140px;
     transition: 0.2s;
 }
 
 #others {
+    align-items: center;
     display: none;
-    margin: 65px 0px 64px 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 65px 0px 65px 0px;
     transition: 0.2s;
 }
 
@@ -219,6 +224,88 @@
     }
 }
 
+.techColumn {
+    height: 60px;
+    width: 80px;
+}
+
+.workDiv   {
+    align-items: center;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    min-height: 100px;
+    padding: 20px 72px;
+}
+
+.workTitle  {
+    color: $cBlue;
+    font-family: $o;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.experiences    {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.actualRole {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rolePeriod {
+    font-family: $q;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.roleImage1 {
+    height: 178px;
+    width: 178px;
+}
+
+.roleImage2 {
+    height: 136px;
+    margin: 40px 20px 0px 20px;
+    width: 136px;
+}
+
+.roleName   {
+    color: $dark;
+    font-family: $q;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.roleDesc   {
+    font-family: $o;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+@media  (max-width: 1024px) {
+    .roleImage1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .roleImage2 {
+        margin: 40px 0px 0px 0px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
 @media  (max-width: 991px)  {
     .aboutSection   {
         gap: 20px;
@@ -232,9 +319,67 @@
         height: 30px;
         width: 30px;
     }
+
+    .infoDiv    {
+        width: 400px;
+    }
+
+    #frontEnd   {
+        gap: 5px;
+        padding: 0px;
+    }
+
+    #backEnd   {
+        gap: 5px;
+        padding: 0px;
+    }
+
+    #others {
+        gap: 5px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+
+    .techColumn {
+        width: 50px;
+    }
+
+    .experiences    {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .actualRole {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .roleImage1 {
+        align-self: center;
+        height: 80%;
+        width: 80%;
+    }
+
+    .roleImage2 {
+        align-self: center;
+        height: 80%;
+        width: 80%;
+    }
 }
 
 @media  (max-width: 768px)  {
+    .profileDiv {
+        width: 100%;
+    }
+    .aboutSection   {
+        width: 100%;
+    }
+
+    #alternatorContainer    {
+        padding: 0px;
+        width: 100%;
+    }
+
     .aboutSection   {
         align-items: center;
         flex-direction: column;
@@ -244,11 +389,37 @@
 
     .skillsDiv  {
         align-self: center;
-        margin: 0px 0px;
+        margin: 40px 0px 0px 0px;
         padding: 0px 0px;
-        width: 306px;
+        width: 100%;
     }
 
+    #frontEnd   {
+        gap: 15px;
+    }
+
+    .techBtns   {
+        width: 100px;
+    }
+
+    .techName   {
+        font-size: 10px;
+    }
+
+    .workDiv    {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+}
+
+@media  (max-width: 426px)  {
+    .infoDiv    {
+        width: 100%;
+    }
+}
+
+@media  (max-width: 360px)  {
     .techBtns   {
         width: 80px;
     }
