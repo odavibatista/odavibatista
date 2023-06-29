@@ -73,6 +73,48 @@ main    {
     text-transform: uppercase;
 }
 
+.serviceCard    {
+    align-items: center;
+    background-color: $lBlue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    height: 150px;
+    padding: 0px 35px;
+    width: 480px;
+
+    transition: 0.25s;
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+    }
+}
+
+.serviceImg {
+    height: 100px;
+    width: 100px;
+}
+
+.serviceTitle   {
+    font-family: $q;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.serviceDesc    {
+    font-size: 12px;
+    font-weight: 400;
+    width: 90%;
+}
+
 @media  (max-width: 991px)  {
     .techName   {
         font-size: 10px;
@@ -85,6 +127,43 @@ main    {
 
     .techColumn {
         width: 50px;
+    }
+
+    .serviceImg {
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media  (max-width: 512px)  {
+    .serviceCard   {
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+        height: 360px;
+        padding: 25px;
+        text-align: center;
+        width: 100%;
+        
+        div {
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .serviceImg {
+        margin-top: 20px;
+    }
+
+    .serviceTitle   {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .serviceDesc    {
+        font-size: 14px;
+        margin-bottom: -15px;
+        width: 100%;
     }
 }
 
