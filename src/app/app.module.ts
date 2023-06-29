@@ -16,6 +16,9 @@ import { NgxSplideModule } from 'ngx-splide';
 import { SplashScreenComponent } from './components/common/splash-screen/splash-screen.component';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
+import { FrontEndComponent } from './components/pages/about/front-end/front-end.component';
+import { BackEndComponent } from './components/pages/about/back-end/back-end.component';
+import { OthersComponent } from './components/pages/about/others/others.component';
 
 export function playerFactory(): any {  
   return import('lottie-web');
@@ -33,6 +36,9 @@ export function playerFactory(): any {
     ProjectsComponent,
     TalkToMeComponent,
     SplashScreenComponent,
+    FrontEndComponent,
+    BackEndComponent,
+    OthersComponent,
   ],
   imports: [
     BrowserModule,

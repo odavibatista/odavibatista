@@ -136,50 +136,6 @@
     margin: 15px auto 10px auto;
 }
 
-.techImage  {
-    width: 40px;
-}
-
-.techName   {
-    font-family: $q;
-    font-size: 12px;
-    font-weight: bold;
-    padding-top: 5px;
-    text-transform: uppercase;
-}
-
-#frontEnd   {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 25px 0px;
-    padding: 0px 100px;
-    transition: 0.2s;
-}
-
-#backEnd    {
-    align-items: center;
-    display: none;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 25px 0px;
-    padding: 0px 140px;
-    transition: 0.2s;
-}
-
-#others {
-    align-items: center;
-    display: none;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 65px 0px 65px 0px;
-    transition: 0.2s;
-}
-
 .techSelector   {
     align-self: center;
     display: flex;
@@ -222,11 +178,6 @@
         height: 39px;
         width: 39px;
     }
-}
-
-.techColumn {
-    height: 60px;
-    width: 80px;
 }
 
 .workDiv   {
@@ -311,37 +262,8 @@
         gap: 20px;
     }
 
-    .techName   {
-        font-size: 10px;
-    }
-
-    .techImage  {
-        height: 30px;
-        width: 30px;
-    }
-
     .infoDiv    {
         width: 400px;
-    }
-
-    #frontEnd   {
-        gap: 5px;
-        padding: 0px;
-    }
-
-    #backEnd   {
-        gap: 5px;
-        padding: 0px;
-    }
-
-    #others {
-        gap: 5px;
-        margin-bottom: 50px;
-        padding: 0px;
-    }
-
-    .techColumn {
-        width: 50px;
     }
 
     .experiences    {
@@ -394,16 +316,8 @@
         width: 100%;
     }
 
-    #frontEnd   {
-        gap: 15px;
-    }
-
     .techBtns   {
-        width: 100px;
-    }
-
-    .techName   {
-        font-size: 10px;
+        width: 80px;
     }
 
     .workDiv    {
@@ -416,11 +330,5 @@
 @media  (max-width: 426px)  {
     .infoDiv    {
         width: 100%;
-    }
-}
-
-@media  (max-width: 360px)  {
-    .techBtns   {
-        width: 80px;
     }
 }

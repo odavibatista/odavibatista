@@ -1,0 +1,25 @@
+@import '../../../../../styles.scss';
+
+#frontEnd   {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px 0px;
+    padding: 0px 100px;
+    transition: 0.2s;
+}
+
+@media  (max-width: 991px)  {
+    #frontEnd   {
+        gap: 5px;
+        padding: 0px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    #frontEnd   {
+        gap: 15px;
+    }
+}

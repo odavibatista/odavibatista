@@ -1,0 +1,19 @@
+@import '../../../../../styles.scss';
+
+#others {
+    align-items: center;
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 65px 0px 65px 0px;
+    transition: 0.2s;
+}
+
+@media  (max-width: 991px)  {
+    #others {
+        gap: 5px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+}

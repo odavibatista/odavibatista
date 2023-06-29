@@ -1,0 +1,19 @@
+@import '../../../../../styles.scss';
+
+#backEnd    {
+    align-items: center;
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px 0px;
+    padding: 0px 140px;
+    transition: 0.2s;
+}
+
+@media  (max-width: 991px)  {
+    #backEnd   {
+        gap: 5px;
+        padding: 0px;
+    }
+}

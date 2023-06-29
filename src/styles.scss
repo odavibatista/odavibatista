@@ -55,3 +55,35 @@ main    {
         color: $cBlue;
     }
 }
+
+.techColumn {
+    height: 60px;
+    width: 80px;
+}
+
+.techImage  {
+    width: 40px;
+}
+
+.techName   {
+    font-family: $q;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+@media  (max-width: 991px)  {
+    .techName   {
+        font-size: 10px;
+    }
+
+    .techImage  {
+        height: 30px;
+        width: 30px;
+    }
+
+    .techColumn {
+        width: 50px;
+    }
+}
