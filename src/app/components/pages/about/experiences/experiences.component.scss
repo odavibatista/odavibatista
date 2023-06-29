@@ -1,0 +1,82 @@
+@import '../../../../../styles.scss';
+
+.experiences    {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.actualRole {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rolePeriod {
+    font-family: $q;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.roleImage1 {
+    height: 178px;
+    width: 178px;
+}
+
+.roleImage2 {
+    height: 136px;
+    margin: 40px 20px 0px 20px;
+    width: 136px;
+}
+
+.roleName   {
+    color: $dark;
+    font-family: $q;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.roleDesc   {
+    font-family: $o;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+@media  (max-width: 1024px) {
+    .roleImage1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .roleImage2 {
+        margin: 40px 0px 0px 0px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media  (max-width: 991px)  {
+    .experiences    {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .actualRole {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .roleImage1 {
+        align-self: center;
+        height: 80%;
+        width: 80%;
+    }
+
+    .roleImage2 {
+        align-self: center;
+        height: 80%;
+        width: 80%;
+    }
+}

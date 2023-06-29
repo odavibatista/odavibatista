@@ -19,6 +19,8 @@ import player from 'lottie-web';
 import { FrontEndComponent } from './components/pages/about/front-end/front-end.component';
 import { BackEndComponent } from './components/pages/about/back-end/back-end.component';
 import { OthersComponent } from './components/pages/about/others/others.component';
+import { ExperiencesComponent } from './components/pages/about/experiences/experiences.component';
+import { ProfileComponent } from './components/pages/about/profile/profile.component';
 
 export function playerFactory(): any {  
   return import('lottie-web');
@@ -39,6 +41,8 @@ export function playerFactory(): any {
     FrontEndComponent,
     BackEndComponent,
     OthersComponent,
+    ExperiencesComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
