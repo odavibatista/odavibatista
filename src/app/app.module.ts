@@ -9,7 +9,6 @@ import { FooterComponentComponent } from './components/common/footer-component/f
 import { IndexComponent } from './components/pages/index/index.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ServicesComponent } from './components/pages/services/services.component';
-import { SkillsComponent } from './components/pages/skills/skills.component';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
 import { TalkToMeComponent } from './components/pages/talk-to-me/talk-to-me.component';
 import { NgxSplideModule } from 'ngx-splide';
@@ -38,7 +37,6 @@ export function playerFactory(): any {
     IndexComponent,
     AboutComponent,
     ServicesComponent,
-    SkillsComponent,
     ProjectsComponent,
     TalkToMeComponent,
     SplashScreenComponent,
