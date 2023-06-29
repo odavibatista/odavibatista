@@ -58,7 +58,7 @@
     #navbarSupportedContent {
         background-color: $dark;
         border-radius: 10px;
-        margin: 5px;
+        margin: 0px;
         padding: 0px 20px 20px 20px;
         transition: 0.2s;
         width: 100%;
@@ -75,4 +75,23 @@
     .navigation {
         padding: 0px 3%;
     }
+
+    #talkToMe   {
+        align-items: center;
+        background-color: $dark;
+        color: $lBlue;
+        height: 20px;
+        margin: 0px;
+        margin-left: -4px;
+        margin-top: 5px;
+        padding: 0px;
+        width: 100px;
+
+        &:hover {
+            background-color: $dark;
+            color: $light;
+        }
+    }
+
+    
 }
