@@ -1,0 +1,66 @@
+@import '../../../../styles.scss';
+
+.talkToMe   {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 49px 0px;
+
+    h1  {
+        color: $cBlue;
+        font-family: $o;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    p   {
+        color: $dark;
+        font-size: 20px;
+    }
+
+}
+
+.contactLinks   {
+    align-items: center;
+    color: $dark;
+    display: flex;
+    flex-direction: row;
+    font-family: $q;
+    gap: 10px;
+    text-decoration: none;
+    width: 360px;
+
+    transition: 0.3s;
+    &:hover {
+        color: $cBlue;
+        p   {
+            color: $cBlue;
+        }
+    }
+
+    svg {
+        height: 35px;
+        width: 35px;
+    }
+
+    p   {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+}
+
+@media  (max-width: 375px)  {
+    .talkToMe   {
+        padding: 30px 10px;
+    }
+
+    .contactLinks   {
+        width: 300px;
+
+        p   {
+            font-size: 18px;
+        }
+    }
+}

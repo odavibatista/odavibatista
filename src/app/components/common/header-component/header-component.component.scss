@@ -4,7 +4,7 @@
     background-color: $dark;
     flex-direction: row;
     height: 79px;
-    padding: 0px 86px;
+    padding: 0px 86px 0px 98px;
 }
 
 .navImage   {
@@ -47,6 +47,14 @@
 
 .linksGap   {
     gap: 24px;
+}
+
+.navbar-brand   {
+
+    transition: 0.3s;
+    &:hover {
+        filter: brightness(3.2);
+    }
 }
 
 #nav-button {
@@ -93,5 +101,4 @@
         }
     }
 
-    
 }
