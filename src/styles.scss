@@ -115,6 +115,64 @@ main    {
     width: 90%;
 }
 
+.projectSlide   {
+    background-color: $lBlue;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.471);
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+}
+
+.slideImage {
+    border-radius: 9px 9px 0px 0px;
+    width: 100%;
+}
+
+.projectName    {
+    color: $dark;
+    font-family: $q;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.projectDesc    {
+    color: $dark;
+    font-family: $o;
+    height: 145px;
+    padding: 0px 20px;
+    margin-top: -5px;
+}
+
+.projectIcons   {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px 25px;
+}
+
+.projectIcon    {
+    height: 25px;
+    width: 25px;
+}
+
+.projectLink    {
+    color: $dark;
+
+    transition: 0.2s;
+    &:hover {
+        color: $cBlue;
+    }
+}
+
+.figmaIcon  {
+    filter: brightness(2.5);
+}
+
 @media  (max-width: 991px)  {
     .techName   {
         font-size: 10px;
@@ -132,6 +190,16 @@ main    {
     .serviceImg {
         height: 140px;
         width: 140px;
+    }
+
+}
+
+@media  (max-width: 768px)  {
+    .projectSlide   {
+        align-self: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 auto;
     }
 }
 
@@ -164,6 +232,26 @@ main    {
         font-size: 14px;
         margin-bottom: -15px;
         width: 100%;
+    }
+}
+
+@media  (max-width: 361px)  {
+    .projectSlide   {
+        width: 280px;
+    }
+    .projectDesc    {
+        font-size: 12px;
+        width: 250px;
+    }
+    .projectIcon    {
+        height: 20px;
+        width: 20px;
+    }
+    .projectName    {
+        padding-right: 35px;
+    }
+    .projectIcons   {
+        padding-right: 55px;
     }
 }
 

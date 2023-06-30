@@ -1,0 +1,32 @@
+@import '../../../../styles.scss';
+
+.projects   {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -60px;
+    padding: 49px 20px 0px 20px;
+    width: 100%;
+
+    h1  {
+        color: $cBlue;
+        font-family: $o;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    p   {
+        font-family: $q;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .smallText  {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+

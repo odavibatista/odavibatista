@@ -24,6 +24,14 @@ import { StudiesComponent } from './components/pages/about/studies/studies.compo
 import { FrontEndCardComponent } from './components/pages/services/front-end-card/front-end-card.component';
 import { BackEndCardComponent } from './components/pages/services/back-end-card/back-end-card.component';
 import { UiDesignCardComponent } from './components/pages/services/ui-design-card/ui-design-card.component';
+import { DelibitesComponent } from './components/pages/projects/delibites/delibites.component';
+import { SqlEcommerceComponent } from './components/pages/projects/sql-ecommerce/sql-ecommerce.component';
+import { ViviBotComponent } from './components/pages/projects/vivi-bot/vivi-bot.component';
+import { OldDavidComponent } from './components/pages/projects/old-david/old-david.component';
+import { VivaceHotelsComponent } from './components/pages/projects/vivace-hotels/vivace-hotels.component';
+import { ExaltedDiceRollingComponent } from './components/pages/projects/exalted-dice-rolling/exalted-dice-rolling.component';
+import { ProjectVeritasComponent } from './components/pages/projects/project-veritas/project-veritas.component';
+import { PortolioComponent } from './components/pages/projects/portolio/portolio.component';
 
 export function playerFactory(): any {  
   return import('lottie-web');
@@ -49,6 +57,14 @@ export function playerFactory(): any {
     FrontEndCardComponent,
     BackEndCardComponent,
     UiDesignCardComponent,
+    DelibitesComponent,
+    SqlEcommerceComponent,
+    ViviBotComponent,
+    OldDavidComponent,
+    VivaceHotelsComponent,
+    ExaltedDiceRollingComponent,
+    ProjectVeritasComponent,
+    PortolioComponent,
   ],
   imports: [
     BrowserModule,

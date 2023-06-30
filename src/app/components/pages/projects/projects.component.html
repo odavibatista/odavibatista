@@ -1,1 +1,63 @@
-<p>projects works!</p>
+<section class="projects">
+    <h1>Projetos e trabalhos</h1>
+    <p>Projetos que abrangem várias tecnologias, para cumprirem vários objetivos.</p>
+    <p class="smallText">(Arraste para ver mais!)</p>
+    <splide 
+    [options]="{
+        perMove: 2, 
+        perPage: 3, 
+        height: 500, 
+        gap: 65, 
+        arrows: true, 
+        pagination: false,
+        breakpoints: {
+            '1200':   {
+                perPage: 2,
+                gap: 30,
+                padding: { left: 30},
+                arrows: false
+            },
+            '768':  {
+                perPage: 1,
+                padding: {left: '10px'},
+                gap: 20
+            },
+            '375':  {
+                gap: 50,
+            }
+        }
+    }"
+    style="width: 100%; cursor: pointer; align-items: center; justify-content: center;">
+        <splide-slide>
+            <app-delibites></app-delibites>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-sql-ecommerce></app-sql-ecommerce>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-old-david></app-old-david>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-vivi-bot></app-vivi-bot>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-exalted-dice-rolling></app-exalted-dice-rolling>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-vivace-hotels></app-vivace-hotels>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-project-veritas></app-project-veritas>
+        </splide-slide>
+        <!--  -->
+        <splide-slide>
+            <app-portolio></app-portolio>
+        </splide-slide>
+    </splide>
+</section>
