@@ -7,15 +7,18 @@
         perMove: 2, 
         perPage: 3, 
         height: 500, 
-        gap: 65, 
+        gap: 133, 
         arrows: true, 
         pagination: false,
         breakpoints: {
             '1200':   {
                 perPage: 2,
                 gap: 30,
-                padding: { left: 30},
+                padding: { left: '11%'},
                 arrows: false
+            },
+            '991':  {
+                padding: { left: '3%'}
             },
             '768':  {
                 perPage: 1,
@@ -23,11 +26,15 @@
                 gap: 20
             },
             '375':  {
+                padding: {left: '0px'},
                 gap: 50,
             }
         }
     }"
-    style="width: 100%; cursor: pointer; align-items: center; justify-content: center;">
+    style="width: 110%; cursor: pointer; align-items: center; justify-content: center; margin-left: 10px; 
+    @media(max-width: 1024px) {
+        width: 100%;
+        }">
         <splide-slide>
             <app-delibites></app-delibites>
         </splide-slide>
