@@ -1,0 +1,66 @@
+@import '../../../../../styles.scss';
+
+.proccesses {
+    align-items: center;
+    align-self: start;
+    background-color: $cBlue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 85px;
+    justify-content: center;
+    margin-bottom: 9px;
+    min-height: 150px;
+    padding: 22px 128px;
+    width: 100%;
+}
+
+.process    {
+    align-items: center;
+    color: $lBlue;
+    display: flex;
+    flex-direction: column;
+    font-family: $q;
+    font-weight: bold;
+    justify-content: center;
+    height: 96px;
+    text-align: center;
+}
+
+.processIcon    {
+    height: 50px;
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+.processFeatures    {
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+}
+
+@media  (max-width:1199px)  {
+    .proccesses {
+        align-self: center;
+        margin: 0 auto;
+        padding: 49px 20px;
+        width: 480px;
+    }
+}
+@media  (max-width: 512px)  {
+    .proccesses {
+        gap: 65px;
+        width: 100%;
+    }
+
+    .processFeatures    {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .processIcon    {
+        height: 100px;
+        width: 100px;
+    }
+}

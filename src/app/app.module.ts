@@ -32,6 +32,7 @@ import { VivaceHotelsComponent } from './components/pages/projects/vivace-hotels
 import { ExaltedDiceRollingComponent } from './components/pages/projects/exalted-dice-rolling/exalted-dice-rolling.component';
 import { ProjectVeritasComponent } from './components/pages/projects/project-veritas/project-veritas.component';
 import { PortolioComponent } from './components/pages/projects/portolio/portolio.component';
+import { ProcessesComponent } from './components/pages/services/processes/processes.component';
 
 export function playerFactory(): any {  
   return import('lottie-web');
@@ -65,6 +66,7 @@ export function playerFactory(): any {
     ExaltedDiceRollingComponent,
     ProjectVeritasComponent,
     PortolioComponent,
+    ProcessesComponent,
   ],
   imports: [
     BrowserModule,
