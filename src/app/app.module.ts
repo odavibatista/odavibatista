@@ -26,6 +26,7 @@ import { BackEndCardComponent } from './components/pages/services/back-end-card/
 import { UiDesignCardComponent } from './components/pages/services/ui-design-card/ui-design-card.component';
 import { ProcessesComponent } from './components/pages/services/processes/processes.component';
 import { ProjectCardsComponent } from './components/pages/projects/project-cards/project-cards.component';
+import { ActualStudyComponent } from './components/pages/about/studies/actual-study/actual-study.component';
 
 export function playerFactory(): any {  
   return import('lottie-web');
@@ -52,7 +53,8 @@ export function playerFactory(): any {
     BackEndCardComponent,
     UiDesignCardComponent,
     ProcessesComponent,
-    ProjectCardsComponent
+    ProjectCardsComponent,
+    ActualStudyComponent
   ],
   imports: [
     BrowserModule,

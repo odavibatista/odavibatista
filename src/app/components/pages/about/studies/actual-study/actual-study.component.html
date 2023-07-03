@@ -1,0 +1,12 @@
+<div class="actualStudy">
+    <img class="studyImage" src="{{study.imgUrl}}" alt="">
+    <div class="studyInfo">
+        <p class="studyName">{{study.title}}</p>
+        <p class="studyPeriod" *ngIf="study.conclusion > 2023; else concluded">Ano de Conclusão: {{study.conclusion}}</p>
+        <p class="studyDesc">{{study.description}}</p>
+    </div>
+</div>
+
+<ng-template #concluded>
+    <p class="studyPeriod">Concluído em: {{study.conclusion}}</p>
+</ng-template>

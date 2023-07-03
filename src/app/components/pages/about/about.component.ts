@@ -63,4 +63,9 @@ export class AboutComponent {
     backEndTechs.style.display = "none"
     otherTechs.style.display = "flex"
   }
+
+  links = [
+    "https://www.linkedin.com/in/-davi-batista/details/certifications/",
+    "https://drive.google.com/drive/folders/1XvvH5_dgube0dlE3BCYgAAf-LRnpwq5M?usp=drive_link"
+  ]
 }
