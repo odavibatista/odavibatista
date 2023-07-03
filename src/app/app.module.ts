@@ -27,6 +27,10 @@ import { UiDesignCardComponent } from './components/pages/services/ui-design-car
 import { ProcessesComponent } from './components/pages/services/processes/processes.component';
 import { ProjectCardsComponent } from './components/pages/projects/project-cards/project-cards.component';
 import { ActualStudyComponent } from './components/pages/about/studies/actual-study/actual-study.component';
+import { GithubComponent } from './components/common/icons/github/github.component';
+import { LinkedinComponent } from './components/common/icons/linkedin/linkedin.component';
+import { WhatsappComponent } from './components/common/icons/whatsapp/whatsapp.component';
+import { ResumeComponent } from './components/common/icons/resume/resume.component';
 
 export function playerFactory(): any {  
   return import('lottie-web');
@@ -54,7 +58,11 @@ export function playerFactory(): any {
     UiDesignCardComponent,
     ProcessesComponent,
     ProjectCardsComponent,
-    ActualStudyComponent
+    ActualStudyComponent,
+    GithubComponent,
+    LinkedinComponent,
+    WhatsappComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
