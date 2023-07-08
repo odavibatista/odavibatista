@@ -85,6 +85,17 @@ export class ProjectsComponent {
     },
 
     {
+      imgUrl: "../../../../../assets/images/projects/onebitmusic-slide.jpg",
+      title: "OneBitMusic",
+      description: "Landing Page construída como desafio do primeiro hackathon da OneBitCode, com a proposta de se seguir o wireframe do Figma, e implementando funções à página.",
+      deployUrl: "https://onebitmusic.vercel.app/",
+      ghUrl: "https://github.com/daviebatista/onebitcode-hackathon-1",
+      figmaUrl: "https://www.figma.com/file/qV4ADMl4Vvytj15d2aBEMH/Onebitmusic?type=design&node-id=1674-135&mode=design",
+      docs: '',
+      dbUrl: ''
+    },
+    
+    {
       imgUrl: "../../../../../assets/images/projects/portfolio-slide.jpg",
       title: "Dev Portfolio",
       description: "Single Page Application produzida com Angular 16, Bootstrap e SCSS, com wireframe desenhado no Figma para a criação e estilização do projeto e suas funcionalidades.",
@@ -93,8 +104,9 @@ export class ProjectsComponent {
       figmaUrl: "https://www.figma.com/file/gnttWmAfu7TyKYY1WHzHGw/Portfolio---V2?type=design&node-id=3-14&mode=design&t=hA68nkqzdyHtvUgB-0",
       docs: '',
       dbUrl: ''
-    }
-    
+    },
+
+
   ]
 
 
