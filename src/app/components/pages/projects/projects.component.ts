@@ -96,6 +96,17 @@ export class ProjectsComponent {
     },
     
     {
+      imgUrl: "../../../../../assets/images/projects/sequelize-boilerplate-slide.jpg",
+      title: "Sequelize Boilerplate",
+      description: "Template criado para desenvolvimento de bancos de dados SQL/NoSQL via Sequelize com interface administrativa construída do AdminJs, pronto para uso.",
+      deployUrl: "",
+      ghUrl: "https://github.com/daviebatista/postgres-boilerplate",
+      figmaUrl: "",
+      docs: '',
+      dbUrl: ''
+    },
+
+    {
       imgUrl: "../../../../../assets/images/projects/portfolio-slide.jpg",
       title: "Dev Portfolio",
       description: "Single Page Application produzida com Angular 16, Bootstrap e SCSS, com wireframe desenhado no Figma para a criação e estilização do projeto e suas funcionalidades.",
@@ -105,8 +116,6 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: ''
     },
-
-
   ]
 
 
