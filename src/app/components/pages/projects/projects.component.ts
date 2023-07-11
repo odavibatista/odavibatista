@@ -22,10 +22,10 @@ export class ProjectsComponent {
       imgUrl: "../../../../../assets/images/projects/old-david-slide.jpg",
       title: "Old David's Shop",
       description: "E-commerce construído através de React, Vite e Bootstrap, com funções de cadastro, carrinho de compras, e finalização de compras com endereço e recibo, com layout e wireframe próprios.",
-      deployUrl: "",
-      ghUrl: "https://github.com/daviebatista/vivi-bot",
-      figmaUrl: "",
-      docs: 'https://github.com/daviebatista/vivi-bot/tree/V2.3/commands#readme',
+      deployUrl: "https://daviebatista.github.io/beverage-ecommerce/",
+      ghUrl: "https://github.com/daviebatista/beverage-ecommerce",
+      figmaUrl: "https://www.figma.com/file/FLaRgeOP2ZW6nzsXYzdVmS/Old-David's-Shop?type=design&node-id=101-2&mode=design&t=ZoSvhISzfrVSdvr0-0",
+      docs: '',
       dbUrl: ''
     },
 
@@ -88,10 +88,10 @@ export class ProjectsComponent {
       imgUrl: "../../../../../assets/images/projects/vivi-bot-slide.jpg",
       title: "Vivi Bot",
       description: "Projeto de bot de Discord open-source, feito com NodeJs e TypeScript pela biblioteca DiscordJS. Possui funções nativas para as jogadas de dados, e a aplicação pode ser clonada.",
-      deployUrl: "https://daviebatista.github.io/beverage-ecommerce/",
-      ghUrl: "https://github.com/daviebatista/beverage-ecommerce",
-      figmaUrl: "https://www.figma.com/file/FLaRgeOP2ZW6nzsXYzdVmS/Old-David's-Shop?type=design&node-id=101-2&mode=design&t=ZoSvhISzfrVSdvr0-0",
-      docs: '',
+      deployUrl: "",
+      ghUrl: "https://github.com/daviebatista/vivi-bot",
+      figmaUrl: "",
+      docs: 'https://github.com/daviebatista/vivi-bot/tree/V2.3/commands#readme',
       dbUrl: ''
     },
 
@@ -116,8 +116,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: ''
     },
-
-
+    
   ]
 
 
