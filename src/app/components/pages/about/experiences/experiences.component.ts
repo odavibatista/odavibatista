@@ -17,7 +17,7 @@ export class ExperiencesComponent {
     {
       imgUrl: "../../../../../assets/images/techs/occupation-2.png",
       roleName: "Designer UI & Gráfico Freelancer",
-      time: "2021 - Atualmente",
+      time: "2022 - Atualmente",
       description: "Produzo mockups, interfaces, artes visuais, logotipos, divulgação e designs de newsletters. Reinvento e remodelo designs obsoletos ou desatualizados, e trago-os ao padrão dos dias atuais. Realizo meus trabalhos através do uso do Photoshop CS6, Figma, GIMP, e possuo experiência com Corel Draw. Meus trabalhos podem ser vistos em meu portfólio."
     }
   ]
