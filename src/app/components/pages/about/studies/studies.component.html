@@ -1,5 +1,3 @@
 <section class="studies">
-    <app-actual-study [study]="studies[0]"></app-actual-study>
-    <app-actual-study [study]="studies[1]"></app-actual-study>
-    <app-actual-study [study]="studies[2]"></app-actual-study>
+    <app-actual-study *ngFor="let study of studies" [study]="study"></app-actual-study>
 </section>

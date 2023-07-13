@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./talk-to-me.component.scss']
 })
 export class TalkToMeComponent {
-
 }

@@ -35,44 +35,8 @@
     @media(max-width: 1024px) {
         width: 100%;
         }">
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[0]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[1]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[2]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[3]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[4]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[5]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[6]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[7]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[8]"></app-project-cards>
-        </splide-slide>
-        <!--  -->
-        <splide-slide>
-            <app-project-cards [cardInfo]="Projects[9]"></app-project-cards>
+        <splide-slide *ngFor="let project of Projects; index as idx">
+            <app-project-cards [cardInfo]="Projects[idx]"></app-project-cards>
         </splide-slide>
     </splide>
 </section>

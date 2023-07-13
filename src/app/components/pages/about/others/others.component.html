@@ -1,22 +1,6 @@
 <div class="container text-center align-items-center justify-content-center" id="others">
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" class="techImage">
-        <p class="techName">Git</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="ps6" class="techImage">
-        <p class="techName">Photoshop</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" class="techImage">
-        <p class="techName">Figma</p>
-    </div>
-    <div class="techColumn">
-        <img src="../../../../../assets/images/techs/docker.png" alt="docker" class="techImage">
-        <p class="techName">Docker</p>
-    </div>
-    <div class="techColumn">
-        <img src="../../../../../assets/images/techs/scrum.png" alt="scrum" class="techImage">
-        <p class="techName">Scrum</p>
+    <div *ngFor="let tech of Others; let i = index" class="techColumn">
+        <img src="{{tech.url}}" alt="{{tech.name}}" class="techImage">
+        <p class="techName">{{tech.name}}</p>
     </div>
 </div>

@@ -6,5 +6,46 @@ import { Component } from '@angular/core';
   styleUrls: ['./back-end.component.scss']
 })
 export class BackEndComponent {
+  public BackEnd  = [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      name: "Node.js"
+    },
+    
+    {
+      url: "../../../../../assets/images/techs/sql.png",
+      name: "sql"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      name: "Postgres"
+    },
+    
+    {
+      url: "../../../../../assets/images/techs/postman.png",
+      name: "Postman"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+      name: "sequelize"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+      name: "webpack"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      name: "Express"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      name: "Python"
+    },
 
+  ]
 }

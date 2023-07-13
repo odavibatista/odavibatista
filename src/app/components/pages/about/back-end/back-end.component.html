@@ -1,34 +1,6 @@
 <div class="container text-center" id="backEnd">
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" class="techImage">
-        <p class="techName">Node.js</p>
-    </div>
-    <div class="techColumn">
-        <img src="../../../../../assets/images/techs/sql.png" alt="sql" class="techImage">
-        <p class="techName">sql</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Postgres" class="techImage">
-        <p class="techName">Postgres</p>
-    </div>
-    <div class="techColumn">
-        <img src="../../../../../assets/images/techs/postman.png" alt="postman" class="techImage">
-        <p class="techName">Postman</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="webpack" class="techImage">
-        <p class="techName">sequelize</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="sass" class="techImage">
-        <p class="techName">webpack</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" class="techImage">
-        <p class="techName">Express</p>
-    </div>
-    <div class="techColumn">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" class="techImage">
-        <p class="techName">Python</p>
+    <div *ngFor="let tech of BackEnd; let i = index" class="techColumn">
+        <img src="{{tech.url}}" alt="{{tech.name}}" class="techImage">
+        <p class="techName">{{tech.name}}</p>
     </div>
 </div>

@@ -6,5 +6,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./others.component.scss']
 })
 export class OthersComponent {
-
+  public Others  = [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      name: "Git"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+      name: "Photoshop"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      name: "Figma"
+    },
+    
+    {
+      url: "../../../../../assets/images/techs/docker.png",
+      name: "Docker"
+    },
+    
+    {
+      url: "../../../../../assets/images/techs/scrum.png",
+      name: "Scrum"
+    },
+    
+    
+  ]
 }

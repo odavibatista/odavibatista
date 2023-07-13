@@ -6,5 +6,55 @@ import { Component } from '@angular/core';
   styleUrls: ['./front-end.component.scss']
 })
 export class FrontEndComponent {
+  public FrontEnd  = [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      name: "JavaScript"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "TypeScript"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+      name: "Angular"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      name: "Bootstrap"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+      name: "Next.Js"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      name: "Sass/Scss"
+    },
+    
+    {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png",
+      name: "Vite"
+    },
 
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      name: "CSS"
+    },
+    
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      name: "HTML"
+    },
+  ]
 }
