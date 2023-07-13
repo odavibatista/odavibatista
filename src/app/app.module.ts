@@ -21,9 +21,6 @@ import { OthersComponent } from './components/pages/about/others/others.componen
 import { ExperiencesComponent } from './components/pages/about/experiences/experiences.component';
 import { ProfileComponent } from './components/pages/about/profile/profile.component';
 import { StudiesComponent } from './components/pages/about/studies/studies.component';
-import { FrontEndCardComponent } from './components/pages/services/front-end-card/front-end-card.component';
-import { BackEndCardComponent } from './components/pages/services/back-end-card/back-end-card.component';
-import { UiDesignCardComponent } from './components/pages/services/ui-design-card/ui-design-card.component';
 import { ProcessesComponent } from './components/pages/services/processes/processes.component';
 import { ProjectCardsComponent } from './components/pages/projects/project-cards/project-cards.component';
 import { ActualStudyComponent } from './components/pages/about/studies/actual-study/actual-study.component';
@@ -53,9 +50,6 @@ export function playerFactory(): any {
     ExperiencesComponent,
     ProfileComponent,
     StudiesComponent,
-    FrontEndCardComponent,
-    BackEndCardComponent,
-    UiDesignCardComponent,
     ProcessesComponent,
     ProjectCardsComponent,
     ActualStudyComponent,

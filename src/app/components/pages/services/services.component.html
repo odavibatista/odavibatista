@@ -1,9 +1,13 @@
 <section class="services">
     <h1 class="servicesTitle">Serviços que trazem <span>qualidade</span></h1>
     <div class="servicesCards">
-        <app-front-end-card></app-front-end-card>
-        <app-ui-design-card></app-ui-design-card>
-        <app-back-end-card></app-back-end-card>
+        <div class="serviceCard" *ngFor="let tech of Services; let i = index">
+            <img src="{{tech.url}}" alt="{{tech.title}}" class="serviceImg">
+            <div>
+                <p class="serviceTitle">{{tech.title}}</p>
+                <p class="serviceDesc">{{tech.description}}</p>
+            </div>
+        </div>
     </div>
     <h1 class="processesTitle">Processos que <span>fazem a diferença</span></h1>
     <app-processes></app-processes>
