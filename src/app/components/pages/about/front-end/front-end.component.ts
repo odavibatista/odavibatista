@@ -21,6 +21,11 @@ export class FrontEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       name: "React"
     },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+      name: "Vue"
+    },
     
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
