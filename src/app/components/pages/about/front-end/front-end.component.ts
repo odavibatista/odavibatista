@@ -31,12 +31,17 @@ export class FrontEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
       name: "Angular"
     },
-    
+
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
       name: "Bootstrap"
     },
-    
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      name: "TailWindCSS"
+    },
+
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
       name: "Next.Js"
