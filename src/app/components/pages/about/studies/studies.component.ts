@@ -8,10 +8,10 @@ import { Component, Output } from '@angular/core';
 export class StudiesComponent {
   @Output()  studies = [
     {
-      imgUrl: "https://i.imgur.com/1eWhckr.png",
-      title: "Bacharelado em Análise e Desenvolvimento de Sistemas pela Universidade Cruzeiro do Sul Virtual",
-      conclusion: 2024,
-      description: "Estudo no curso de Análise e Desenvolvimento de Sistemas, aonde aprendo sobre paradigmas dos sistemas de informação, e aprendo linguagens de programação úteis para a ciência de dados, como Python e Java. Aprendo também sobre paradigmas para o desenvolvimento de aplicações front-end, como princípios e tipos de layouts, através de JQuery, HTML e CSS."
+      imgUrl: "https://i.imgur.com/MUUiSsI.png",
+      title: "Superior em Ciência da Computação pela Universidade São Judas Tadeu",
+      conclusion: 2027,
+      description: "Faço o curso de Ciência da Computação, aonde aprendo sobre paradigmas dos sistemas de informação, e aprendo linguagens de programação úteis para a ciência de dados. O curso também ensina o desenvolvimento mobile, através de Java e Kotlin."
     },
     {
       imgUrl: "https://i.imgur.com/dGtJXzC.png",

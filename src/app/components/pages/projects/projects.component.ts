@@ -61,6 +61,17 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: ''
     },
+    
+    {
+      imgUrl: "../../../../../assets/images/projects/mailwind-slide.jpg",
+      title: "MailWind",
+      description: "Serviço de e-mails local construído com TailWindCSS, ReactJs, Vite, TypeScript e JSON.",
+      deployUrl: "https://mail-wind.vercel.app/",
+      ghUrl: "https://github.com/daviebatista/mail-wind",
+      figmaUrl: "",
+      docs: '',
+      dbUrl: ''
+    },
 
     {
       imgUrl: "../../../../../assets/images/projects/portfolio-slide.jpg",
@@ -117,16 +128,7 @@ export class ProjectsComponent {
       dbUrl: ''
     },
     
-    {
-      imgUrl: "../../../../../assets/images/projects/mailwind-slide.jpg",
-      title: "MailWind",
-      description: "Serviço de e-mails local construído com TailWindCSS, ReactJs, Vite, TypeScript e JSON.",
-      deployUrl: "https://mail-wind.vercel.app/",
-      ghUrl: "https://github.com/daviebatista/mail-wind",
-      figmaUrl: "",
-      docs: '',
-      dbUrl: ''
-    },
+
 
   ]
 
