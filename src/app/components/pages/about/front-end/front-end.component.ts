@@ -51,6 +51,11 @@ export class FrontEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
       name: "Sass/Scss"
     },
+
+    {
+      url:  "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
+      name: "s-components"
+    },
     
     {
       url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png",

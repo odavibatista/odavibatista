@@ -57,7 +57,11 @@ main    {
 }
 
 .techColumn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     height: 60px;
+    justify-content: center;
     width: 80px;
 }
 
@@ -71,6 +75,7 @@ main    {
     font-weight: bold;
     padding-top: 5px;
     text-transform: uppercase;
+    width: 120%;
 }
 
 .serviceCard    {
