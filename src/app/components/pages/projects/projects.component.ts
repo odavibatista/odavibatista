@@ -99,11 +99,11 @@ export class ProjectsComponent {
       imgUrl: "../../../../../assets/images/projects/vivi-bot-slide.jpg",
       title: "Vivi Bot",
       description: "Projeto de bot de Discord open-source, feito com NodeJs e TypeScript pela biblioteca DiscordJS. Possui funções nativas para as jogadas de dados, e a aplicação pode ser clonada.",
-      deployUrl: "",
+      deployUrl: "https://vivibot.vercel.app/",
       ghUrl: "https://github.com/daviebatista/vivi-bot",
-      figmaUrl: "",
+      figmaUrl: "https://www.figma.com/file/sW6q9STTUr6pAJk3sW39ey/Vivi-Bot?type=design&node-id=0-1&mode=design&t=mMefwu3SD8rObi2Y-0",
       docs: 'https://github.com/daviebatista/vivi-bot/tree/V2.3/commands#readme',
-      dbUrl: ''
+      dbUrl: 'https://dash.daki.cc/'
     },
 
     {
