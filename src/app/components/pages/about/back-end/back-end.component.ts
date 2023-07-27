@@ -11,6 +11,11 @@ export class BackEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       name: "Node.js"
     },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
+      name: "mongodb"
+    },
     
     {
       url: "../../../../../assets/images/techs/sql.png",
