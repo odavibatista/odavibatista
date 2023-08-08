@@ -1,0 +1,130 @@
+@import '../../../../../../styles.scss';
+
+section {
+    display: flex;
+    gap: 13%;
+    margin: 75px -20px;
+    justify-content: space-between;
+}
+
+.return {
+    align-items: center;
+    background-color: rgba(198, 198, 255, 0.695);
+    border: 3px solid $dark;
+    border-radius: 20px;
+    color: $dark;
+    display: flex;
+    font-family: $o;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 5px;
+    margin-left: -20px;
+    margin-top: 20px;
+    padding: 2px 15px;
+    position: fixed;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+
+    p   {
+        margin: 0;
+    }
+
+    &:hover {
+        background-color: $light;
+    }
+}
+
+h1  {
+    border-bottom: 4px solid $cBlue;
+    font-family: $o;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-align: start;
+}
+
+.projectInfo   {
+    border-bottom: 4px solid $cBlue;
+    font-family: $o;
+    padding-bottom: 15px;
+}
+
+.projectImage   {
+    border-radius: 10px;
+}
+
+.projectLinks   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.projectLink    {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: $o;
+    font-size: 14px;
+    gap: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.singleIcon {
+    height: 30px;
+    width: 30px;
+}
+
+
+h2  {
+    border-bottom: 4px solid $cBlue;
+    font-family: $o;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.projectTechs   {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $o;
+    font-size: 12px;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+@media  (max-width: 991px)  {
+    section {
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .projectImage   {
+        width: 500px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    section {
+        margin: 75px 0px;
+    }
+}
+
+@media  (max-width: 540px)  {
+    .projectImage   {
+        width: 100%;
+    }
+
+    .projectTechs   {
+        gap: 50px;
+    }
+}

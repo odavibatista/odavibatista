@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-project-cards',
@@ -7,13 +8,10 @@ import { Component, Input } from '@angular/core';
 })
 export class ProjectCardsComponent {
   @Input() cardInfo = {
+    id: 1,
     imgUrl: "",
     title: "",
-    description: "",
-    deployUrl: "",
-    ghUrl: "",
-    docs: "",
-    figmaUrl: "",
-    dbUrl: ""
+    briefing: ""
   }
+
 }

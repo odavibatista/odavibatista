@@ -1,0 +1,18 @@
+@import '../../../../../styles.scss';
+
+a   {
+    background-color: $dark;
+    border-radius: 20px;
+    color: $lBlue;
+    font-family: $o;
+    font-weight: bold;
+    margin-top: -5px;
+    padding: 4px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $cBlue;
+        color: $lBlue;
+    }
+}

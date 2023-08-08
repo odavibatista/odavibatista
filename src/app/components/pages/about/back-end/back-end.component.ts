@@ -18,7 +18,7 @@ export class BackEndComponent {
     },
     
     {
-      url: "../../../../../assets/images/techs/sql.png",
+      url: "/assets/images/techs/sql.png",
       name: "sql"
     },
     
@@ -28,7 +28,7 @@ export class BackEndComponent {
     },
     
     {
-      url: "../../../../../assets/images/techs/postman.png",
+      url: "/assets/images/techs/postman.png",
       name: "Postman"
     },
     
