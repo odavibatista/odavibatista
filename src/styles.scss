@@ -208,6 +208,11 @@ main    {
         margin: 0 auto;
         padding: 0 auto;
     }
+
+    .serviceImg {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media  (max-width: 512px)  {
@@ -215,7 +220,7 @@ main    {
         align-items: center;
         flex-direction: column-reverse;
         gap: 20px;
-        height: 360px;
+        height: 260px;
         padding: 25px;
         text-align: center;
         width: 100%;
@@ -239,6 +244,12 @@ main    {
         font-size: 14px;
         margin-bottom: -15px;
         width: 100%;
+    }
+}
+
+@media  (max-width: 380px)  {
+    .serviceCard   {
+        height: 290px;
     }
 }
 

@@ -1,5 +1,18 @@
 @import '../../../../../styles.scss';
 
+.processesTitle {
+    color: $dark;
+    font-family: $o;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    text-align: center;
+
+    span    {
+        color: $cBlue;
+    }
+}
+
 .proccesses {
     align-items: center;
     align-self: start;
@@ -40,7 +53,7 @@
     width: 120px;
 }
 
-@media  (max-width:1199px)  {
+@media  (max-width: 1199px)  {
     .proccesses {
         align-self: center;
         margin: 0 auto;
@@ -48,10 +61,21 @@
         width: 480px;
     }
 }
+
+@media  (max-width: 768px)  {
+    .processesTitle {
+        font-size: 40px;
+    }
+}
+
 @media  (max-width: 512px)  {
     .proccesses {
         gap: 65px;
         width: 100%;
+    }
+
+    .processesTitle {
+        font-size: 30px;
     }
 
     .processFeatures    {
