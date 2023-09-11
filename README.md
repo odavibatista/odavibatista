@@ -14,7 +14,7 @@
   </a>
 <br>
 <br>
-    <a align="center" href="https://www.davibatista.tech">
+    <a align="center" href="https://davibatista.tech">
     Check out my portfolio!
     </a>      
 </div>
