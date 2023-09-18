@@ -46,6 +46,11 @@ export class FrontEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
       name: "Next.Js"
     },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
+      name: "Nuxt"
+    },
     
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
