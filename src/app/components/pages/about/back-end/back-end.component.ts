@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class BackEndComponent {
   public BackEnd  = [
     {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      name: "Java"
+    },
+    
+    {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       name: "Node.js"
     },
