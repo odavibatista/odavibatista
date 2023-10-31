@@ -162,7 +162,7 @@ export class InformationComponent {
       description: "Projeto ainda em construção. Feito majoritariamente através de NuxtJS, TailWindCSS, NodeJS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível. Front-end construído via NuxtJS, TailWindCSS e TypeScript, back-end construído com NodeJS, MongoDB, Express, e Mongoose.",
       deployUrl: "https://daniels-steaks.vercel.app/",
       ghUrl: "https://github.com/odavibatista/daniels-steaks-frontend",
-      figmaUrl: '',
+      figmaUrl: "https://www.figma.com/file/vGu9cOBJYz3SbhzYwuyUZ4/Daniels'-Steaks?type=design&node-id=0%3A1&mode=design&t=8wc8BeQK1GbjwAXS-1",
       docs: '',
       dbUrl: 'https://github.com/odavibatista/daniels-steaks-backend',
       technologies: [
