@@ -106,6 +106,39 @@ export class ProjectsComponent {
 
     {
       id: 3,
+      imgUrl: "/assets/images/single-project/mybookshelf-hero.jpg",
+      title: "MyBookshelf",
+      briefing: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles.",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/my-bookshelf",
+      figmaUrl: "",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+          name: "Java"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          name: "Maven"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "MySQL"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "PostgreSQL"
+        },
+      ]
+    },
+
+    {
+      id: 4,
       imgUrl: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       briefing: "Projeto de bot de Discord open-source, feito com NodeJs e TypeScript pela biblioteca DiscordJS. Possui funções nativas para as jogadas de dados, e a aplicação pode ser clonada.",
@@ -148,7 +181,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 4,
+      id: 5,
       imgUrl: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       briefing: "Projeto em construção através de NuxtJS, TailWindCSS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível.",
@@ -196,7 +229,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 5,
+      id: 6,
       imgUrl: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       briefing: "Projeto de um site de receitas, feito com a API Spoonacular e construído via Angular 16. Neste projeto, uso das opções de renderização e componentização do Angular para treinar o framework e o uso de APIs.",
@@ -229,7 +262,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 6,
+      id: 7,
       imgUrl: "/assets/images/single-project/xhealth-hero.jpg",
       title: "xHealth Gyms",
       briefing: "SPA colaborativa desenvolvida em Angular 16 para o segundo hackathon da OneBitCode, colocado em terceiro lugar no ranking dos melhores projetos.",
@@ -272,7 +305,7 @@ export class ProjectsComponent {
       ]
     },
     {
-      id: 7,
+      id: 8,
       imgUrl: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       briefing: "Aplicativo de rolagem de dados para sistemas Exalted/VTM, com taxas de sucesso e impressão dos resultados e seus tipos na interface do usuário, feito com SCSS e JavaScript.",
@@ -295,7 +328,7 @@ export class ProjectsComponent {
     },
   
     {
-      id: 8,
+      id: 9,
       imgUrl: "/assets/images/single-project/portfolio-hero.jpg",
       title: "Dev Portfolio",
       briefing: "Single Page Application produzida com Angular 16, Bootstrap e SCSS, com wireframe desenhado no Figma para a criação e estilização do projeto e suas funcionalidades.",
@@ -333,7 +366,7 @@ export class ProjectsComponent {
     },
   
     {
-      id: 9,
+      id: 10,
       imgUrl: "/assets/images/projects/sequelize-boilerplate-slide.jpg",
       title: "Sequelize Boilerplate",
       briefing: "Template criado para desenvolvimento de bancos de dados SQL/NoSQL via Sequelize com interface administrativa construída do AdminJs, pronto para uso.",
@@ -371,7 +404,7 @@ export class ProjectsComponent {
     },
   
     {
-      id: 10,
+      id: 11,
       imgUrl: "/assets/images/projects/veritas-back-end-slide.jpg",
       title: "Project Veritas Back-End",
       briefing: "Banco de dados relacional + API para um serviço de streaming de aulas de ciências humanas, com categorias, upload de vídeos e interface de administrador.",
@@ -406,45 +439,7 @@ export class ProjectsComponent {
           name: "Node.js"
         },
       ]
-    },
-  
-    {
-      id: 11,
-      imgUrl: "/assets/images/projects/e-commerce-sql-slide.jpg",
-      title: "SQL E-Commerce",
-      briefing: "Banco de dados relacional montado para simular um sistema de back-end de um e-commerce de artigos de informática através de Sequelize, em conjunto com seus endpoints e sua API modelados.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/e-commerce-sequelize",
-      figmaUrl: "",
-      docs: '',
-      dbUrl: 'https://user-images.githubusercontent.com/91736880/232808581-732ae6ce-8478-4e33-9a5a-3b0f04592024.png',
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-          name: "JavaScript"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
-          name: "sequelize"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-          name: "Postgres"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-          name: "Express"
-        },
-        
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          name: "Node.js"
-        },
-      ]
-    },
+    }
   
   ]
 

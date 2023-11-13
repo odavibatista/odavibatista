@@ -114,6 +114,39 @@ export class InformationComponent {
 
     {
       id: 3,
+      hero: "/assets/images/single-project/mybookshelf-hero.jpg",
+      title: "MyBookshelf",
+      description: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles. Construído através de projeto Maven, com interface gráfica da bibliotca javax.swing, e compatibilidade para bancos de dados MySQL e PostgreSQL",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/my-bookshelf/tree/main",
+      figmaUrl: "",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+          name: "Java"
+        },
+        
+        {
+          url: "https://user-images.githubusercontent.com/43886029/158700686-2b7f0d3d-2cfa-4ed0-9783-3b4b0d24469e.svg",
+          name: "Maven"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+          name: "MySQL"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+          name: "PostgreSQL"
+        },
+      ]
+    },
+
+    {
+      id: 4,
       hero: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       description: "Template em código open-source de bot de Discord, integrado com funcionalidades para jogos de tabuleiro baseados em rolagens de dados, contendo alta capacidade de customização, clonagem e uso local por parte do usuário. Com funções para os tipos de dados de jogo mais comuns, a aplicação vem com tudo que é necessário para se iniciar suas jogatinas!",
@@ -156,7 +189,7 @@ export class InformationComponent {
     },
     
     {
-      id: 4,
+      id: 5,
       hero: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       description: "Projeto ainda em construção. Feito majoritariamente através de NuxtJS, TailWindCSS, NodeJS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível. Front-end construído via NuxtJS, TailWindCSS e TypeScript, back-end construído com NodeJS, MongoDB, Express, e Mongoose.",
@@ -204,7 +237,7 @@ export class InformationComponent {
     },
 
     {
-      id: 5,
+      id: 6,
       hero: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       description: "Projeto construído através de Angular 16. Neste, realizo o uso da API Spoonacular, um serviço dedicado que contém diversas receitas, com seus ingredientes, imagens e modo de preparo. Através da integração entre a aplicação front-end e a API, construo um site de receitas em inglês em formato de Single Page Application, que faz requisições reais à API para extração de informações e renderização das mesmas via rotas dinâmicas.",
@@ -237,7 +270,7 @@ export class InformationComponent {
     },
 
     {
-      id: 6,
+      id: 7,
       hero: "/assets/images/single-project/xhealth-hero.jpg",
       title: "xHealth Gyms",
       description: "Projeto desenvolvido para a segunda edição dos Hackathons OneBitCode. A proposta feita pelos realizadores do evento era simular um projeto freelance, aonde um cliente estaria solicitando a construção de um mockup + website com requisitos específicos para uma academia de alta qualidade, tendo sido construído com Angular em formato de Single Page Application. O mesmo foi realizado de modo colaborativo, e em dupla.",
@@ -280,7 +313,7 @@ export class InformationComponent {
       ]
     },
     {
-      id: 7,
+      id: 8,
       hero: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       description: "Pequena aplicação construída para a execução de rolagens de dados do sistema Exalted, mas também compatível com VTM. O projeto foi construído para ser utilizado por um grupo de jogadores de RPG que fazem uso do sistema e nem sempre podem contar com um bot hosteado de modo integral, para que assim pudéssem realizar suas jogadas com uma aplicação que não dependesse de hospedagem local. A aplicação conta com taxa de sucesso pré-definida e registro de resultados e sucessos.",
@@ -303,7 +336,7 @@ export class InformationComponent {
     },
   
     {
-      id: 8,
+      id: 9,
       hero: "/assets/images/single-project/portfolio-hero.jpg",
       title: "Dev Portfolio",
       description: "Portfólio em formato de Single-Page-Application Angular. O mesmo tem seu mockup desenhado via Figma, e foi transformado em código através de Angular 16. O mesmo possuo páginas com rotas dinâmicas para os distintos campos desenhados para a aplicação, e possui páginas individuais para os projetos aqui depositados.",
@@ -341,7 +374,7 @@ export class InformationComponent {
     },
   
     {
-      id: 9,
+      id: 10,
       hero: "/assets/images/projects/sequelize-boilerplate-slide.jpg",
       title: "Sequelize Boilerplate",
       description: "Código boilerplate para desenvolvimento de banco de dados, integrado com a ORM Sequelize, para se trabalhar com bancos de dados de tipo relacional. O projeto vêm com Jest, Docker e AdminJS configurados para serem utilizados na aplicação.",
@@ -379,7 +412,7 @@ export class InformationComponent {
     },
   
     {
-      id: 10,
+      id: 11,
       hero: "/assets/images/projects/veritas-back-end-slide.jpg",
       title: "Project Veritas Back-End",
       description: "Banco de dados relacional composto por uma API, criado para comportar o back-end de um serviço de streaming focado em aulas de ciências humanas, como história, filosofia e teologia.",
@@ -414,45 +447,7 @@ export class InformationComponent {
           name: "Node.js"
         },
       ]
-    },
-  
-    {
-      id: 11,
-      hero: "/assets/images/projects/e-commerce-sql-slide.jpg",
-      title: "SQL E-Commerce",
-      description: "Banco de dados relacional integrado com API para a simulação do sistema de um e-commerce de tecnologias, contendo a capacidade de registrar produtos, usuários e informações de seus endereços, avaliações de produtos e comentários feitos nos mesmos por usuários.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/e-commerce-sequelize",
-      figmaUrl: "",
-      docs: '',
-      dbUrl: 'https://user-images.githubusercontent.com/91736880/232808581-732ae6ce-8478-4e33-9a5a-3b0f04592024.png',
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-          name: "JavaScript"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
-          name: "sequelize"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-          name: "Postgres"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-          name: "Express"
-        },
-        
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          name: "Node.js"
-        },
-      ]
-    },
+    }
   
   ]
 
