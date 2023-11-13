@@ -31,6 +31,11 @@ export class BackEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
       name: "Postgres"
     },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+      name: "MySQL"
+    },
     
     {
       url: "/assets/images/techs/postman.png",
