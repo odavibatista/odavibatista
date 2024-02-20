@@ -2,7 +2,7 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=odavibatista&layout=compact&langs_count=8&theme=algolia&count_private=true" width="300"align="right"/>
   <div align="left" width="375">
     <p>
-    My name is Davi Batista. I'm a Fullstack Web Developer, UI Designer and Digital Project Manager who lives in São Paulo, Brazil. I try to improve and evolve bothly as person and professional every single day.
+    My name is Davi Batista. I'm a Full-stack Web Developer, UI Designer and Digital Project Manager who lives in São Paulo, Brazil. I try to improve and evolve bothly as person and professional every single day.
     </p>
     
 <div align="left">
