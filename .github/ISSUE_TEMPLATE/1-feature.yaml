@@ -1,5 +1,8 @@
 name: 'Feature Insertion'
 description: Issues for new features or enhancements to existing features.
+title: '`[FEAT]` - Title'
+projects: ['odavibatista/5']
+assignee: 'odavibatista'
 
 body:
   - type: dropdown
