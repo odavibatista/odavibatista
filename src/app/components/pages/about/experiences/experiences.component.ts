@@ -11,7 +11,7 @@ export class ExperiencesComponent {
       imgUrl: "/assets/images/mandarin-logo.png",
       roleName: "Estagiário em Gestão de Projetos Digitais na Agência Mandarin",
       time: "11/2023 - Atualmente",
-      description: "Juntamente com a equipe de projetos digitais, acompanho o status de projetos, dou suporte aos especialistas de projetos, participo de reuniões com a equipe da agência, com outros supervisores do departamento de criação e desenvolvimento, além de realizar QA's para testes de aplicações."
+      description: "Acompanhamento da equipe de desenvolvimento, pesquisa de tecnologias para a criação de projetos, realização de QAs, desenvolvimento de novas funcionalidades e criação de tarefas, code review, testes de aplicações, integração de aplicações full-stack, elaboração de briefing para projetos, otimização nos processos de desenvolvimento, criação de aplicações e sistemas."
     },
 
     {
