@@ -27,6 +27,13 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: prints
+    attributes:
+      label: Insert images for this issue
+    validations:
+      required: true
+
   - type: checkboxes
     id: checklist
     attributes:
