@@ -18,6 +18,16 @@ export class BackEndComponent {
     },
 
     {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      name: "Express"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+      name: "Nest"
+    },
+
+    {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
       name: "mongodb"
     },
@@ -36,31 +46,6 @@ export class BackEndComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
       name: "MySQL"
     },
-    
-    {
-      url: "/assets/images/techs/postman.png",
-      name: "Postman"
-    },
-    
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
-      name: "sequelize"
-    },
-    
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
-      name: "webpack"
-    },
-    
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      name: "Express"
-    },
-    
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      name: "Python"
-    },
-
+  
   ]
 }

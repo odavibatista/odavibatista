@@ -23,13 +23,18 @@ export class FrontEndComponent {
     },
 
     {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-      name: "Vue"
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+      name: "Next.Js"
     },
     
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
       name: "Angular"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      name: "Sass/Scss"
     },
 
     {
@@ -40,31 +45,6 @@ export class FrontEndComponent {
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       name: "TailWindCSS"
-    },
-
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
-      name: "Next.Js"
-    },
-
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
-      name: "Nuxt"
-    },
-    
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-      name: "Sass/Scss"
-    },
-
-    {
-      url:  "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
-      name: "s-components"
-    },
-    
-    {
-      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png",
-      name: "Vite"
     },
 
     {

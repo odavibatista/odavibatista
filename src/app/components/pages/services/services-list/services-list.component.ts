@@ -28,10 +28,7 @@ export class ServicesListComponent {
     {
       url: "../../../../../assets/images/techs/back-end.png",
       title: "Desenvolvimento Back-End",
-      description: `Desenho e desenvolvo bancos de dados
-      capazes de armaezenar e interligar suas
-      informações, tal qual crio serviços e end-
-      points capazes de manipulá-lo e utilizá-lo.`
+      description: `Desenvolvo APIs para realizar a manipulação de dados sistêmicos com tecnologias que entreguem qualidade e segurança.`
     },
   ]
 }
