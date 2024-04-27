@@ -25,13 +25,6 @@
     height: 158px;
     width: 158px;
 }
-
-.roleImage2 {
-    height: 136px;
-    margin: 40px 20px 0px 20px;
-    width: 136px;
-}
-
 .roleName   {
     color: $dark;
     font-family: $q;
@@ -47,12 +40,6 @@
 
 @media  (max-width: 1024px) {
     .roleImage1 {
-        height: 100px;
-        width: 100px;
-    }
-
-    .roleImage2 {
-        margin: 40px 0px 0px 0px;
         height: 100px;
         width: 100px;
     }
@@ -73,11 +60,5 @@
         align-self: center;
         height: 50%;
         width: 50%;
-    }
-
-    .roleImage2 {
-        align-self: center;
-        height: 60%;
-        width: 60%;
     }
 }

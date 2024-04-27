@@ -17,7 +17,7 @@ export class StudiesComponent {
       imgUrl: "https://i.imgur.com/dGtJXzC.png",
       title: "PRO pela OneBitCode",
       conclusion: 2024,
-      description: "Estudo pelo plano PRO da OneBitCode, aonde obtenho o aprendizado de diversas tecnologias nos diversos planos de estudos. Nos planos de estudo, incluem Python, Ruby, Rails, Angular, React Native, VueJS, AWS, Figma, NextJS, e outras stacks de desenvolvimento. Incluem-se nesse período de estudos a realização de hackathons, mentorias, e ensino de inglês."
+      description: "Realização de Hackathons e desafios de desenvolvimento, ficando em terceiro lugar no Segundo Hackathon, e em segundo lugar no Primeiro Challenge OneBitCode. Especializações realizadas em Angular, NextJs, Tailwind e Jest."
     },
     {
       imgUrl: "https://i.imgur.com/PJKRw14.png",

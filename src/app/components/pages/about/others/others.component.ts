@@ -31,14 +31,5 @@ export class OthersComponent {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
       name: "Figma"
     },
-    
-
-    
-    {
-      url: "../../../../../assets/images/techs/scrum.png",
-      name: "Scrum"
-    },
-    
-    
   ]
 }
