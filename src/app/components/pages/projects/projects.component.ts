@@ -365,43 +365,43 @@ export class ProjectsComponent {
       ]
     },
   
-    {
-      id: 10,
-      imgUrl: "/assets/images/projects/sequelize-boilerplate-slide.jpg",
-      title: "Sequelize Boilerplate",
-      briefing: "Template criado para desenvolvimento de bancos de dados SQL/NoSQL via Sequelize com interface administrativa construída do AdminJs, pronto para uso.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/postgres-boilerplate",
-      figmaUrl: "",
-      docs: '',
-      dbUrl: '',
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
+    // {
+    //   id: 10,
+    //   imgUrl: "/assets/images/projects/sequelize-boilerplate-slide.jpg",
+    //   title: "Sequelize Boilerplate",
+    //   briefing: "Template criado para desenvolvimento de bancos de dados SQL/NoSQL via Sequelize com interface administrativa construída do AdminJs, pronto para uso.",
+    //   deployUrl: "",
+    //   ghUrl: "https://github.com/odavibatista/postgres-boilerplate",
+    //   figmaUrl: "",
+    //   docs: '',
+    //   dbUrl: '',
+    //   technologies: [
+    //     {
+    //       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    //       name: "TypeScript"
+    //     },
 
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          name: "Node.js"
-        },
+    //     {
+    //       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    //       name: "Node.js"
+    //     },
         
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
-          name: "sequelize"
-        },
+    //     {
+    //       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+    //       name: "sequelize"
+    //     },
 
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-          name: "Jest"
-        },
+    //     {
+    //       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+    //       name: "Jest"
+    //     },
 
-        {
-          url: "/assets/images/techs/docker.png",
-          name: "Docker"
-        }
-      ]
-    },
+    //     {
+    //       url: "/assets/images/techs/docker.png",
+    //       name: "Docker"
+    //     }
+    //   ]
+    // },
   
     {
       id: 11,
