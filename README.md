@@ -4,9 +4,9 @@
     <p>
     My name is Davi Batista. I'm a fast-thinking Full-Stack Developer and Project Manager who lives in São Paulo, Brazil. I try to improve and evolve bothly as person and professional every single day.
     </p>
-    <a align="center" href="https://github.com/davimirandamandarin">
+    <p>
     Currently working at Corabyte Tech.
-    </a> 
+    </p> 
 <div align="left">
     <br>
   <a href="https://www.linkedin.com/in/-davi-batista/">
