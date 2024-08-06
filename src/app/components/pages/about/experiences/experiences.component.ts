@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 export class ExperiencesComponent {
   readonly Roles = [
     {
+      imgUrl: "/assets/images/corabyte-logo.png",
+      roleName: "Desenvolvedor Full-Stack",
+      time: "08/2024 - Atualmente",
+      description: "Planejamento, arquitetura e engenharia de sistemas, desenvolvimento back-end e front-end, documentação de projetos, desenvolvimento de testes unitários, desenvolvimento do escopo de aplicações."
+    },
+    {
       imgUrl: "/assets/images/mandarin-logo.png",
       roleName: "Desenvolvedor Full-Stack & Gestor de Projetos - Estágio",
       time: "11/2023 - 06/2024",
