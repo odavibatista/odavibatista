@@ -11,6 +11,6 @@ export class ProfileComponent {
     iconUrl: "https://img.icons8.com/?size=100x&id=83190&format=png",
     name: "Davi D. Batista O. M.",
     role1: "Full-Stack Developer",
-    description: `Sou um Desenvolvedor Full-Stack e Gestor de Projetos que cria, desenha e desenvolve aplicações web e sistemas back-end. Busco sempre resolver problemas e entregar soluções às pessoas através da tecnologia, e desejo aprender as mais diversas tecnologias, para sempre explorar novos meios de se entregar resultados e satisfação.`
+    description: `Sou um Desenvolvedor Full-Stack que cria, desenha e desenvolve aplicações web e sistemas back-end. Busco sempre resolver problemas e entregar soluções às pessoas através da tecnologia, e desejo aprender as mais diversas tecnologias, para sempre explorar novos meios de se entregar resultados e satisfação.`
   }
 }
