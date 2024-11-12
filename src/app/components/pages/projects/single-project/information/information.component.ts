@@ -73,9 +73,82 @@ export class InformationComponent {
         }
       ]
     },
-  
+
     {
       id: 2,
+      hero: "/assets/images/projects/wits-slide.jpg",
+      title: "Wits!",
+      description: "Aplicação full-stack construída para o sexto Hackathon da OneBitCode, simulando um app de aprendizado gamificado, aonde o usuário realiza quizzes e sobe no ranking global através das pontuações obtidas, de modo a incrementar seus conhecimentos em aritmética, lógica e raciocínio.",
+      deployUrl: "https://wits-site-webapp.vercel.app/",
+      ghUrl: "https://github.com/odavibatista/wits-site-webapp",
+      figmaUrl: "https://www.figma.com/design/79UsAL6xNG55RbwloZT6xj/Wits-(Copy)?node-id=0-1&t=Vyk49oxgGJZkly5f-1",
+      docs: '',
+      dbUrl: 'https://github.com/odavibatista/wits-site-api',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+          name: "TailwindCSS"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          name: "Node.js"
+        },
+
+        {
+          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+          name: "TypeORM"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+          name: "Nest"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+          name: "PostgreSQL"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+          name: "MySQL"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
+          name: "Jest"
+        },
+
+        {
+          url: "/assets/images/techs/docker.png",
+          name: "Docker"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
+          name: "Swagger"
+        },
+      ]
+    },
+  
+    {
+      id: 3,
       hero: "/assets/images/single-project/beverage-hero.jpg",
       title: "Old David's Shop",
       description: "Loja virtual baseada em React e POO. A mesma é um remake de um dos primeiros trabalhos que fiz estudando programação em 2021, tendo sido reconstruído com uma variedade de novos recursos, produtos, funções e estilos não contidos na primeira versão do projeto.\n O projeto conta com sistema de estoque, carrinho, cadastro de contas e registro de compras realizadas pelo usuário.",
@@ -113,7 +186,7 @@ export class InformationComponent {
     },
 
     {
-      id: 3,
+      id: 4,
       hero: "/assets/images/single-project/mybookshelf-hero.jpg",
       title: "MyBookshelf",
       description: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles. Construído através de projeto Maven, com interface gráfica da bibliotca javax.swing, e compatibilidade para bancos de dados MySQL e PostgreSQL",
@@ -146,7 +219,7 @@ export class InformationComponent {
     },
 
     {
-      id: 4,
+      id: 5,
       hero: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       description: "Template em código open-source de bot de Discord, integrado com funcionalidades para jogos de tabuleiro baseados em rolagens de dados, contendo alta capacidade de customização, clonagem e uso local por parte do usuário. Com funções para os tipos de dados de jogo mais comuns, a aplicação vem com tudo que é necessário para se iniciar suas jogatinas!",
@@ -189,7 +262,7 @@ export class InformationComponent {
     },
     
     {
-      id: 5,
+      id: 6,
       hero: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       description: "Projeto ainda em construção. Feito majoritariamente através de NuxtJS, TailWindCSS, NodeJS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível. Front-end construído via NuxtJS, TailWindCSS e TypeScript, back-end construído com NodeJS, MongoDB, Express, e Mongoose.",
@@ -237,7 +310,7 @@ export class InformationComponent {
     },
 
     {
-      id: 6,
+      id: 7,
       hero: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       description: "Projeto construído através de Angular 16. Neste, realizo o uso da API Spoonacular, um serviço dedicado que contém diversas receitas, com seus ingredientes, imagens e modo de preparo. Através da integração entre a aplicação front-end e a API, construo um site de receitas em inglês em formato de Single Page Application, que faz requisições reais à API para extração de informações e renderização das mesmas via rotas dinâmicas.",
@@ -270,7 +343,7 @@ export class InformationComponent {
     },
 
     {
-      id: 7,
+      id: 8,
       hero: "/assets/images/single-project/xhealth-hero.jpg",
       title: "xHealth Gyms",
       description: "Projeto desenvolvido para a segunda edição dos Hackathons OneBitCode. A proposta feita pelos realizadores do evento era simular um projeto freelance, aonde um cliente estaria solicitando a construção de um mockup + website com requisitos específicos para uma academia de alta qualidade, tendo sido construído com Angular em formato de Single Page Application. O mesmo foi realizado de modo colaborativo, e em dupla.",
@@ -313,7 +386,7 @@ export class InformationComponent {
       ]
     },
     {
-      id: 8,
+      id: 9,
       hero: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       description: "Pequena aplicação construída para a execução de rolagens de dados do sistema Exalted, mas também compatível com VTM. O projeto foi construído para ser utilizado por um grupo de jogadores de RPG que fazem uso do sistema e nem sempre podem contar com um bot hosteado de modo integral, para que assim pudéssem realizar suas jogadas com uma aplicação que não dependesse de hospedagem local. A aplicação conta com taxa de sucesso pré-definida e registro de resultados e sucessos.",
@@ -336,7 +409,7 @@ export class InformationComponent {
     },
   
     {
-      id: 9,
+      id: 10,
       hero: "/assets/images/single-project/portfolio-hero.jpg",
       title: "Dev Portfolio",
       description: "Portfólio em formato de Single-Page-Application Angular. O mesmo tem seu mockup desenhado via Figma, e foi transformado em código através de Angular 16. O mesmo possuo páginas com rotas dinâmicas para os distintos campos desenhados para a aplicação, e possui páginas individuais para os projetos aqui depositados.",
@@ -374,53 +447,16 @@ export class InformationComponent {
     },
   
     {
-      id: 10,
-      hero: "/assets/images/projects/sequelize-boilerplate-slide.jpg",
-      title: "Sequelize Boilerplate",
-      description: "Código boilerplate para desenvolvimento de banco de dados, integrado com a ORM Sequelize, para se trabalhar com bancos de dados de tipo relacional. O projeto vêm com Jest, Docker e AdminJS configurados para serem utilizados na aplicação.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/postgres-boilerplate",
-      figmaUrl: "",
-      docs: '',
-      dbUrl: '',
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          name: "Node.js"
-        },
-        
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
-          name: "sequelize"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-          name: "Jest"
-        },
-
-        {
-          url: "/assets/images/techs/docker.png",
-          name: "Docker"
-        }
-      ]
-    },
-  
-    {
       id: 11,
       hero: "/assets/images/projects/veritas-back-end-slide.jpg",
-      title: "Project Veritas Back-End",
-      description: "Banco de dados relacional composto por uma API, criado para comportar o back-end de um serviço de streaming focado em aulas de ciências humanas, como história, filosofia e teologia.",
+      imgUrl: "/assets/images/projects/veritas-back-end-slide.jpg",
+      title: "Project Veritas",
+      description: "Aplicação Full-stack desenvolvida em Express no back-end e Next no front-end, simulando um serviço de aprendizado virtual de ciências humanas e sociais.",
       deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/project-veritas-backend",
+      ghUrl: "https://github.com/odavibatista/project-veritas-frontend",
       figmaUrl: "",
       docs: '',
-      dbUrl: '',
+      dbUrl: 'https://github.com/odavibatista/project-veritas-backend',
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -446,6 +482,23 @@ export class InformationComponent {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
           name: "Node.js"
         },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+          name: "Bootstrap"
+        },
+
+
       ]
     }
   
