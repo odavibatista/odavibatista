@@ -5,7 +5,7 @@
     My name is Davi Batista. I'm a fast-thinking Full-Stack Developer who lives in São Paulo, Brazil. I try to improve and evolve bothly as person and professional every single day.
     </p>
     <p>
-    Currently working at Corabyte Tech.
+    Currently working on a system for a small company of stores in the city of São Paulo.
     </p> 
 <div align="left">
     <br>
@@ -18,7 +18,7 @@
 <br>
 <br>
 <br>
-    <a align="center" href="https://davibatista.tech">
+    <a align="center" href="https://odavibatista.com">
     Check out my website!
     </a>    
 </div>
