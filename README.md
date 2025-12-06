@@ -9,7 +9,7 @@
     </p> 
 <div align="left">
     <br>
-  <a href="https://www.linkedin.com/in/-davi-batista/">
+  <a href="https://www.linkedin.com/in/odavibatista/">
     <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
   </a>
   <a href="https://discord.com/users/301873796200005633">
