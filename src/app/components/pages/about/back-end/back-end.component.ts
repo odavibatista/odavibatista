@@ -28,6 +28,11 @@ export class BackEndComponent {
     },
 
     {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original-wordmark.svg",
+      name: "Prisma"
+    },
+
+    {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
       name: "mongodb"
     },
@@ -45,6 +50,16 @@ export class BackEndComponent {
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
       name: "MySQL"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-plain-wordmark.svg",
+      name: "Redis"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg",
+      name: "Python"
     },
   
   ]
