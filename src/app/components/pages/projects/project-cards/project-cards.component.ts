@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ProjectCardsComponent {
   @Input() cardInfo = {
-    id: 1,
+    id: 0,
     imgUrl: "",
     title: "",
     briefing: ""

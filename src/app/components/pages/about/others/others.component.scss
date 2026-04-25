@@ -5,14 +5,14 @@
     display: none;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
-    margin: 65px 0px 75px 0px;
+    justify-content: center;    margin: 25px 0px;
+
     transition: 0.2s;
 }
 
 @media  (max-width: 991px)  {
     #others {
-        gap: 5px;
+        gap: 15px;
         margin-bottom: 50px;
         padding: 0px;
     }

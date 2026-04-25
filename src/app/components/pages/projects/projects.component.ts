@@ -10,6 +10,38 @@ export class ProjectsComponent {
   Projects = [
     {
       id: 1,
+      imgUrl: "https://i.imgur.com/HjteXSX.jpeg",
+      title: "Synko Design Agency",
+      briefing: "Landing Page desenvolvida para a Agência Colaborativa de Design Synko.",
+      deployUrl: "https://synko.design/",
+      ghUrl: "",
+      figmaUrl: "",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+      ]
+    },
+    {
+      id: 2,
       imgUrl: "/assets/images/single-project/trattoria-hero.jpg",
       title: "Trattoria Fedeli",
       briefing: "Aplicação full-stack para controle de pedidos e comandas de usuários de um restaurante italiano, colocado em 2º Lugar no primeiro Challenge OneBitCode",
@@ -67,7 +99,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 2,
+      id: 3,
       imgUrl: "/assets/images/projects/wits-slide.jpg",
       title: "Wits!",
       briefing: "App full-stack desenvolvido para a sexta edição do Hackathon OneBitCode, simulando um app de aprendizado gamificado para lógica, aritmética e raciocínio.",
@@ -140,7 +172,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 3,
+      id: 4,
       imgUrl: "/assets/images/single-project/xhealth-hero.jpg",
       title: "xHealth Gyms",
       briefing: "SPA colaborativa desenvolvida em Angular 16 para o segundo hackathon da OneBitCode, colocado em terceiro lugar no ranking dos melhores projetos.",
@@ -184,7 +216,7 @@ export class ProjectsComponent {
     },
   
     {
-      id: 4,
+      id: 5,
       imgUrl: "/assets/images/single-project/beverage-hero.jpg",
       title: "Old David's Shop",
       briefing: "E-commerce construído através de React, Vite e Bootstrap, com funções de cadastro, carrinho de compras, e finalização de compras com endereço e recibo, com layout e wireframe próprios.",
@@ -221,8 +253,41 @@ export class ProjectsComponent {
       ]
     },
 
+        {
+      id: 6,
+      imgUrl: "https://i.imgur.com/uKqwLPN.jpeg",
+      title: "Itaim Esfihas",
+      briefing: "Case de rebranding e de construção de site e refatoração das redes sociais de um restaurante de longa data da Zona Sul de São Paulo.",
+      deployUrl: "https://itaim-esifhas-landing-page.vercel.app/",
+      ghUrl: "",
+      figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+      ]
+    },
+
     {
-      id: 5,
+      id: 7,
       imgUrl: "/assets/images/projects/devs-den-slide.jpg",
       title: "Dev's Den",
       briefing: "App full-stack simulando um site de empregos para profissionais de T.I. e Programação, desenvolvido para as disciplinas de Usabilidade e Desenvolvimento Web + Sistemas Distribuídos.",
@@ -295,7 +360,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 6,
+      id: 8,
       imgUrl: "/assets/images/single-project/mybookshelf-hero.jpg",
       title: "MyBookshelf",
       briefing: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles.",
@@ -328,7 +393,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 7,
+      id: 9,
       imgUrl: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       briefing: "Projeto de bot de Discord open-source, feito com NodeJs e TypeScript pela biblioteca DiscordJS. Possui funções nativas para as jogadas de dados, e a aplicação pode ser clonada.",
@@ -371,7 +436,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 8,
+      id: 10,
       imgUrl: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       briefing: "Projeto em construção através de NuxtJS, TailWindCSS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível.",
@@ -419,7 +484,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 9,
+      id: 11,
       imgUrl: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       briefing: "Projeto de um site de receitas, feito com a API Spoonacular e construído via Angular 16. Neste projeto, uso das opções de renderização e componentização do Angular para treinar o framework e o uso de APIs.",
@@ -452,7 +517,7 @@ export class ProjectsComponent {
     },
     
     {
-      id: 10,
+      id: 12,
       imgUrl: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       briefing: "Aplicativo de rolagem de dados para sistemas Exalted/VTM, com taxas de sucesso e impressão dos resultados e seus tipos na interface do usuário, feito com SCSS e JavaScript.",
@@ -475,7 +540,7 @@ export class ProjectsComponent {
     },
   
     {
-      id: 11,
+      id: 13,
       imgUrl: "/assets/images/single-project/portfolio-hero.jpg",
       title: "Dev Portfolio",
       briefing: "Single Page Application produzida com Angular 16, Bootstrap e SCSS, com wireframe desenhado no Figma para a criação e estilização do projeto e suas funcionalidades.",
@@ -514,7 +579,7 @@ export class ProjectsComponent {
 
   
     {
-      id: 12,
+      id: 14,
       imgUrl: "/assets/images/projects/veritas-back-end-slide.jpg",
       title: "Project Veritas",
       briefing: "Aplicação Full-stack desenvolvida em Express no back-end e Next no front-end, simulando um serviço de aprendizado virtual de ciências humanas e sociais.",
