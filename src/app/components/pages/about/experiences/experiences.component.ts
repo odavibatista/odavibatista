@@ -17,7 +17,7 @@ export class ExperiencesComponent {
       imgUrl: "https://i.imgur.com/QVCRPb0.png",
       roleName: "CTO & Co-Founder",
       time: "06/2025 - Atualmente",
-      description: "Trabalho como CTO e co-fundador da Synko, uma agência de marketing, design e soluções digitais nascida de uma collab entre meus conhecimentos técnicos, ajudando empresas da região de São Paulo a impulsionarem seus negócios, cuidando da administração da empresa, delegações de tarefas e do desenvolvimento de código, com soluções de UI Design e Criação/Arte-final."
+      description: "Trabalho como CTO e co-fundador da Synko, uma agência de marketing, design e soluções digitais nascida de uma collab entre meus conhecimentos técnicos como engenheiro de software e demais profissionais de Design, Marketing e Fotografia, ajudando empresas da região de São Paulo a impulsionarem seus negócios, cuidando da administração da empresa, delegações de tarefas e do desenvolvimento de código, com soluções de UI Design e Criação/Arte-final."
     },
     {
       imgUrl: "https://cdn-icons-png.flaticon.com/512/5969/5969474.png",
