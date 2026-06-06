@@ -8,15 +8,27 @@ import { Component } from '@angular/core';
 export class ExperiencesComponent {
   readonly Roles = [
     {
+      imgUrl: "https://i.imgur.com/PQpHDGX.png",
+      roleName: "CTO & Desenvolvedor Full-stack Pleno - Monétiser Technologies S.A.",
+      time: "09/2025 - Atualmente",
+      description: "Atuo como CTO e Desenvolvedor Full-stack & Mobile na Monétiser, elaborando processos de construção de um sistema utilizado por usuários finais e usuários internos, sobretudo elaborando processos de documentação, participando e solicitando tarefa em dailies, processos de pesquisa e aprendizado de outros devs, e elaboração de processos de engenharia e arquitetura de software."
+    },
+    {
+      imgUrl: "https://i.imgur.com/QVCRPb0.png",
+      roleName: "CTO & Co-Founder",
+      time: "06/2025 - Atualmente",
+      description: "Trabalho como CTO e co-fundador da Synko, uma agência de marketing, design e soluções digitais nascida de uma collab entre meus conhecimentos técnicos como engenheiro de software e demais profissionais de Design, Marketing e Fotografia, ajudando empresas da região de São Paulo a impulsionarem seus negócios, cuidando da administração da empresa, delegações de tarefas e do desenvolvimento de código, com soluções de UI Design e Criação/Arte-final."
+    },
+    {
       imgUrl: "https://cdn-icons-png.flaticon.com/512/5969/5969474.png",
-      roleName: "Criação de Sistema - Empresa Confidencial",
-      time: "02/2024 - Atualmente",
-      description: "Desenvolvimento de um sistema sob medida completo para uma empresa atuante no setor de fotografia, design gráfico, impressões e criação de fotoprodutos. O projeto consiste em um sistema para controle de entrada e saída de serviços, insumos e atividades realizadas por cada funcionário da empresa, de modo a centralizar o controle de vendas de suas múltiplas lojas."
+      roleName: "Desenvolvedor Full-Stack Freelancer, Professor de Programação",
+      time: "02/2025 - 04/2026",
+      description: "Desenvolvimentos de sistema sob medida para empresas, ministração de aulas de programação, lógica e teoria da computação para estudantes de ensino fundamental e médio, auxílio e mentoria para estudantes de graduação e pós-graduação com apoio prestado projetos acadêmicos com notas de 8.5-10.0."
     },
     {
       imgUrl: "/assets/images/corabyte-logo.png",
-      roleName: "Desenvolvedor Full-Stack Júnior",
-      time: "08/2024 - 11/2024",
+      roleName: "Engenheiro Full-Stack Júnior",
+      time: "08/2024 - 01/2025",
       description: "Planejamento, arquitetura e engenharia de sistemas, desenvolvimento back-end e front-end, documentação de projetos, desenvolvimento de testes unitários, desenvolvimento do escopo de aplicações."
     },
     {
