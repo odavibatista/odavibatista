@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class ExperiencesComponent {
   readonly Roles = [
     {
-      imgUrl: "https://i.imgur.com/PQpHDGX.png",
-      roleName: "CTO & Desenvolvedor Full-stack Pleno - Monétiser Technologies S.A.",
-      time: "09/2025 - Atualmente",
-      description: "Atuo como CTO e Desenvolvedor Full-stack & Mobile na Monétiser, elaborando processos de construção de um sistema utilizado por usuários finais e usuários internos, sobretudo elaborando processos de documentação, participando e solicitando tarefa em dailies, processos de pesquisa e aprendizado de outros devs, e elaboração de processos de engenharia e arquitetura de software."
+      imgUrl: "https://i.imgur.com/QVCRPb0.png",
+      roleName: "Technical Lead - Synko Design Agency",
+      time: "06/2025 - Atualmente",
+      description: "Trabalho como Tech Lead da Synko, uma agência de marketing, design e soluções digitais nascida de uma collab entre meus conhecimentos técnicos como engenheiro de software e demais profissionais de Design, Marketing e Fotografia, ajudando empresas da região de São Paulo a impulsionarem seus negócios, cuidando da administração da empresa, delegações de tarefas e do desenvolvimento de código, com soluções de UI Design e Criação/Arte-final."
     },
     {
-      imgUrl: "https://i.imgur.com/QVCRPb0.png",
-      roleName: "CTO & Co-Founder",
-      time: "06/2025 - Atualmente",
-      description: "Trabalho como CTO e co-fundador da Synko, uma agência de marketing, design e soluções digitais nascida de uma collab entre meus conhecimentos técnicos como engenheiro de software e demais profissionais de Design, Marketing e Fotografia, ajudando empresas da região de São Paulo a impulsionarem seus negócios, cuidando da administração da empresa, delegações de tarefas e do desenvolvimento de código, com soluções de UI Design e Criação/Arte-final."
+      imgUrl: "https://i.imgur.com/PQpHDGX.png",
+      roleName: "CTO & Engenheiro Full-stack Pleno - Monétiser Technologies S.A.",
+      time: "09/2025 - 01/07/2026",
+      description: "Atuei como CTO e Desenvolvedor Full-stack & Mobile na Monétiser, elaborando processos de construção de um sistema utilizado por usuários finais e usuários internos, sobretudo elaborando processos de documentação, participando e solicitando tarefa em dailies, processos de pesquisa e aprendizado de outros devs, e elaboração de processos de engenharia e arquitetura de software."
     },
     {
       imgUrl: "https://cdn-icons-png.flaticon.com/512/5969/5969474.png",
