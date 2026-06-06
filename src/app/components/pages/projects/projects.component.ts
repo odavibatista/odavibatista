@@ -45,6 +45,7 @@ export class ProjectsComponent {
       figmaUrl: "",
       docs: '',
       dbUrl: '',
+      type: "front-end",
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -469,6 +470,7 @@ export class ProjectsComponent {
       figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
       docs: '',
       dbUrl: '',
+      type: "front-end",
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
