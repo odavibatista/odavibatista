@@ -1,42 +1,19 @@
 <section class="projects">
     <h1>Projetos e trabalhos</h1>
     <p>Projetos que abrangem várias tecnologias, para cumprirem vários objetivos.</p>
-    <p class="smallText">(Arraste para ver mais!)</p>
-    <splide 
-    [options]="{
-        perMove: 2, 
-        perPage: 3, 
-        height: 500, 
-        gap: 133, 
-        arrows: true, 
-        pagination: false,
-        breakpoints: {
-            '1200':   {
-                perPage: 2,
-                gap: 30,
-                padding: { left: '11%'},
-                arrows: false
-            },
-            '991':  {
-                padding: { left: '3%'}
-            },
-            '768':  {
-                perPage: 1,
-                padding: {left: '10px'},
-                gap: 20
-            },
-            '375':  {
-                padding: {left: '0px'},
-                gap: 50,
-            }
-        }
-    }"
-    style="width: 110%; cursor: pointer; align-items: center; justify-content: center; margin-left: 10px; 
-    @media(max-width: 1024px) {
-        width: 100%;
-        }">
-        <splide-slide *ngFor="let project of Projects; index as idx">
-            <app-project-cards [cardInfo]="Projects[idx]"></app-project-cards>
-        </splide-slide>
-    </splide>
+    <div class="projectGroup" *ngFor="let section of projectSections">
+        <h2>{{ section.title }}</h2>
+        <p class="smallText">(Arraste para ver mais!)</p>
+        <splide 
+        *ngIf="section.projects.length > 0; else emptyState"
+        class="projectSplide"
+        [options]="section.options">
+            <splide-slide *ngFor="let project of section.projects; trackBy: trackByProjectId">
+                <app-project-cards [cardInfo]="project"></app-project-cards>
+            </splide-slide>
+        </splide>
+        <ng-template #emptyState>
+            <p class="emptyState">Nenhum projeto cadastrado nesta categoria ainda.</p>
+        </ng-template>
+    </div>
 </section>

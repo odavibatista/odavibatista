@@ -573,7 +573,220 @@ export class InformationComponent {
 
 
       ]
+    },
+
+    {
+  id: 13,
+  hero: "/assets/images/projects/state-machine-apps-slide.jpg",
+  title: "State Machine Apps",
+  description: "Conjunto de aplicações desenvolvidas para a disciplina de Teoria da Computação e Compiladores. O projeto utiliza React e TypeScript para simular o funcionamento de autômatos finitos determinísticos através de dois estudos de caso: uma máquina de vendas (Vending Machine) e um elevador inteligente com estados, transições e regras de operação.",
+  deployUrl: "https://state-machine-apps.vercel.app/",
+  ghUrl: "https://github.com/odavibatista/state-machine-apps",
+  figmaUrl: "",
+  docs: "https://github.com/odavibatista/state-machine-apps#readme",
+  dbUrl: "",
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "TypeScript"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+      name: "Vite"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      name: "CSS Modules"
     }
+  ]
+},
+
+{
+  id: 14,
+  hero: "/assets/images/projects/vulgata-bot-slide.jpg",
+  title: "Vulgata Discord Bot",
+  description: "Bot para Discord desenvolvido em Python capaz de consultar versículos da Vulgata Latina em tempo real através de Slash Commands. O sistema realiza scraping da plataforma Vulgata Online, interpreta o HTML retornado utilizando BeautifulSoup e entrega os versículos diretamente dentro do Discord.",
+  deployUrl: "",
+  ghUrl: "https://github.com/odavibatista/vulgata-discord-bot",
+  figmaUrl: "",
+  docs: "https://github.com/odavibatista/vulgata-discord-bot#readme",
+  dbUrl: "",
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      name: "Python"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      name: "Discord.py"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      name: "Requests"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      name: "BeautifulSoup"
+    }
+  ]
+},
+
+{
+  id: 15,
+  hero: "/assets/images/projects/vivace-hotels-slide.jpg",
+  title: "Vivace Hotels",
+  description: "Landing Page institucional criada para estudos de UI/UX Design e desenvolvimento Front-End. O projeto simula a presença digital da rede fictícia Vivace Hotels, tendo sido inteiramente planejado no Figma antes de sua implementação utilizando React, TypeScript e SCSS.",
+  deployUrl: "",
+  ghUrl: "https://github.com/odavibatista/vivace-hotels",
+  figmaUrl: "https://www.figma.com/file/YthDo58TItOrjkhOk11nlf/Vivace-Hotels",
+  docs: "https://github.com/odavibatista/vivace-hotels#readme",
+  dbUrl: "",
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "TypeScript"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      name: "SCSS"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      name: "Figma"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+      name: "Vite"
+    }
+  ]
+},
+
+{
+  id: 16,
+  hero: "/assets/images/projects/nestjs-boilerplate-slide.jpg",
+  title: "NestJS Boilerplate",
+  description: "Boilerplate profissional para APIs NestJS contendo autenticação JWT, criptografia integrada com Bcrypt, TypeORM, Swagger, Docker, Seeds, Cache Manager, Zod, Class Validator e suporte para PostgreSQL e MySQL. O objetivo do projeto é acelerar o início de novas aplicações corporativas.",
+  deployUrl: "",
+  ghUrl: "https://github.com/odavibatista/nestjs-boilerplate",
+  figmaUrl: "",
+  docs: "https://github.com/odavibatista/nestjs-boilerplate#readme",
+  dbUrl: "",
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+      name: "NestJS"
+    },
+    {
+      url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+      name: "TypeORM"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      name: "PostgreSQL"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      name: "MySQL"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      name: "Docker"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
+      name: "Swagger"
+    }
+  ]
+},
+{
+  id: 17,
+  hero: "/assets/images/projects/wecryptit-slide.jpg",
+  title: "WeCryptIt",
+description: "Ferramenta web para criptografia de matrizes utilizando AES-256 com chave composta. O projeto explora conceitos de criptografia simétrica, vetores de inicialização (IV), geração de chaves e proteção de dados, oferecendo uma interface capaz de criptografar e restaurar estruturas matriciais de forma segura. Desenvolvido como estudo prático de Segurança da Informação, algoritmos criptográficos e integração entre lógica de negócio e experiência do usuário.",  deployUrl: "https://we-cryptit.vercel.app/",
+  ghUrl: "https://github.com/odavibatista/we-crypt-it",
+  figmaUrl: "",
+  docs: "https://github.com/odavibatista/we-crypt-it#readme",
+  dbUrl: "https://github.com/odavibatista/we-crypt-it-api",
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "TypeScript"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+      name: "Vite"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      name: "CSS"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      name: "Git"
+    }
+  ]
+},
+{
+  id: 18,
+  hero: "/assets/images/projects/core-notes-slide.jpg",
+  title: "Core Notes",
+  description: "Aplicação full-stack de gerenciamento de notas desenvolvida como teste técnico para a CoreLab. O projeto utiliza NestJS, Prisma, MySQL, Redis e JWT no back-end, além de NextJS, TypeScript e SCSS no front-end. Entre seus principais diferenciais estão a criptografia AES-256 aplicada ao conteúdo das notas, autenticação segura baseada em tokens, cache com Redis, documentação automática via Swagger, testes automatizados e uma arquitetura baseada nos princípios de Clean Architecture.",
+  deployUrl: "",
+  ghUrl: "https://github.com/odavibatista/corelab-web-challenge",
+  figmaUrl: "",
+  docs: "https://github.com/odavibatista/corelab-api-challenge#readme",
+  dbUrl: "https://github.com/odavibatista/corelab-api-challenge",
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      name: "NextJS"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "TypeScript"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+      name: "NestJS"
+    },
+    {
+      url: "https://seeklogo.com/images/P/prisma-logo-3805665B69-seeklogo.com.png",
+      name: "Prisma"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      name: "MySQL"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+      name: "Redis"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg",
+      name: "Swagger"
+    },
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+      name: "Jest"
+    }
+  ]
+},
   
   ]
 
