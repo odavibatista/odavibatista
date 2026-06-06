@@ -18,7 +18,7 @@ export class ExperiencesComponent {
       imgUrl: 'https://i.imgur.com/PQpHDGX.png',
       roleName:
         'CTO & Engenheiro Full-stack Pleno - Monétiser Technologies S.A.',
-      time: '09/2025 - 01/07/2026',
+      time: '09/2025 - 07/2026',
       description:
         'Atuei como CTO e Desenvolvedor Full-stack & Mobile na Monétiser, elaborando processos de construção de um sistema utilizado por usuários finais e usuários internos, sobretudo elaborando processos de documentação, participando e solicitando tarefa em dailies, processos de pesquisa e aprendizado de outros devs, e elaboração de processos de engenharia e arquitetura de software.',
     },
