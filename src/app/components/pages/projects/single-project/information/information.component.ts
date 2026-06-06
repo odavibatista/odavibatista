@@ -18,6 +18,44 @@ export class InformationComponent {
   Projects = [
     {
       id: 1,
+      hero: "https://i.imgur.com/HjteXSX.jpeg",
+      title: "Synko Design Agency",
+      description: "A Synko é uma agência colaborativa especializada em branding, mídias sociais e desenvolvimento digital. O nome 'Synko' (cinco) serviu de base para toda a identidade da marca. Este projeto envolveu a criação de um sistema de marca completo e uma landing page institucional que reflete essa abordagem estruturada, porém criativa.",
+      deployUrl: "https://synko.design/",
+      ghUrl: "https://github.com/synkodesign",
+      figmaUrl: "https://guedesdesignc.myportfolio.com/synko-branding",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+
+        {
+          url: "https://elchinabilov.com/images/articles/next-intl.png",
+          name: "Next-INTL"
+        },
+      ]
+    },
+
+    {
+      id: 2,
       hero: "/assets/images/single-project/trattoria-hero.jpg",
       title: "Trattoria Fedeli",
       description: "Aplicação full-stack construída via NextJS 13 + banco de dados relacional PostgreSQL, colocada no segundo lugar no ranking da competição. Elaborada para mostrar o cardápio e realização de pedidos via celular por parte dos clientes, e controle e visualização dos pedidos por parte da cozinha local.",
@@ -75,7 +113,7 @@ export class InformationComponent {
     },
 
     {
-      id: 2,
+      id: 3,
       hero: "/assets/images/projects/wits-slide.jpg",
       title: "Wits!",
       description: "Aplicação full-stack construída para o sexto Hackathon da OneBitCode, simulando um app de aprendizado gamificado, aonde o usuário realiza quizzes e sobe no ranking global através das pontuações obtidas, de modo a incrementar seus conhecimentos em aritmética, lógica e raciocínio.",
@@ -148,7 +186,7 @@ export class InformationComponent {
     },
 
     {
-      id: 3,
+      id: 4,
       hero: "/assets/images/single-project/xhealth-hero.jpg",
       title: "xHealth Gyms",
       description: "Projeto desenvolvido para a segunda edição dos Hackathons OneBitCode. A proposta feita pelos realizadores do evento era simular um projeto freelance, aonde um cliente estaria solicitando a construção de um mockup + website com requisitos específicos para uma academia de alta qualidade, tendo sido construído com Angular em formato de Single Page Application. O mesmo foi realizado de modo colaborativo, e em dupla.",
@@ -192,7 +230,7 @@ export class InformationComponent {
     },
   
     {
-      id: 4,
+      id: 5,
       hero: "/assets/images/single-project/beverage-hero.jpg",
       title: "Old David's Shop",
       description: "Loja virtual baseada em React e POO. A mesma é um remake de um dos primeiros trabalhos que fiz estudando programação em 2021, tendo sido reconstruído com uma variedade de novos recursos, produtos, funções e estilos não contidos na primeira versão do projeto.\n O projeto conta com sistema de estoque, carrinho, cadastro de contas e registro de compras realizadas pelo usuário.",
@@ -230,7 +268,40 @@ export class InformationComponent {
     },
 
     {
-      id: 5,
+      id: 7,
+      hero: "https://i.imgur.com/uKqwLPN.jpeg",
+      title: "Itaim Esfihas",
+      description: "Este projeto teve como foco revitalizar a presença digital da empresa, honrando seu compromisso de longa data com a qualidade, o sabor e uma experiência de serviço profundamente humanizada. O objetivo era traduzir sua atmosfera acolhedora e presencial em um ambiente digital sofisticado e convidativo.",
+      deployUrl: "https://itaim-esifhas-landing-page.vercel.app/",
+      ghUrl: "https://github.com/synkodesign",
+      figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+      ]
+    },
+
+    {
+      id: 7,
       hero: "/assets/images/projects/devs-den-slide.jpg",
       title: "Dev's Den",
       description: "App full-stack simulando um site de empregos para profissionais de T.I. e Programação, desenvolvido para as disciplinas de Usabilidade e Desenvolvimento Web + Sistemas Distribuídos. O app utiliza NestJS + TypeORM no back-end com Swagger documentando todos os endpoints da API, contando com testes unitários em algumas camadas, enquanto utiliza NextJS + SCSS + Zod no front-end.",
@@ -303,7 +374,7 @@ export class InformationComponent {
     },
 
     {
-      id: 6,
+      id: 8,
       hero: "/assets/images/single-project/mybookshelf-hero.jpg",
       title: "MyBookshelf",
       description: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles. Construído através de projeto Maven, com interface gráfica da bibliotca javax.swing, e compatibilidade para bancos de dados MySQL e PostgreSQL",
@@ -336,7 +407,7 @@ export class InformationComponent {
     },
 
     {
-      id: 7,
+      id: 9,
       hero: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       description: "Template em código open-source de bot de Discord, integrado com funcionalidades para jogos de tabuleiro baseados em rolagens de dados, contendo alta capacidade de customização, clonagem e uso local por parte do usuário. Com funções para os tipos de dados de jogo mais comuns, a aplicação vem com tudo que é necessário para se iniciar suas jogatinas!",
@@ -379,7 +450,7 @@ export class InformationComponent {
     },
     
     {
-      id: 8,
+      id: 10,
       hero: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       description: "Projeto ainda em construção. Feito majoritariamente através de NuxtJS, TailWindCSS, NodeJS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível. Front-end construído via NuxtJS, TailWindCSS e TypeScript, back-end construído com NodeJS, MongoDB, Express, e Mongoose.",
@@ -427,7 +498,7 @@ export class InformationComponent {
     },
 
     {
-      id: 9,
+      id: 11,
       hero: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       description: "Projeto construído através de Angular 16. Neste, realizo o uso da API Spoonacular, um serviço dedicado que contém diversas receitas, com seus ingredientes, imagens e modo de preparo. Através da integração entre a aplicação front-end e a API, construo um site de receitas em inglês em formato de Single Page Application, que faz requisições reais à API para extração de informações e renderização das mesmas via rotas dinâmicas.",
@@ -460,7 +531,7 @@ export class InformationComponent {
     },
     
     {
-      id: 10,
+      id: 12,
       hero: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       description: "Pequena aplicação construída para a execução de rolagens de dados do sistema Exalted, mas também compatível com VTM. O projeto foi construído para ser utilizado por um grupo de jogadores de RPG que fazem uso do sistema e nem sempre podem contar com um bot hosteado de modo integral, para que assim pudéssem realizar suas jogadas com uma aplicação que não dependesse de hospedagem local. A aplicação conta com taxa de sucesso pré-definida e registro de resultados e sucessos.",
@@ -483,7 +554,7 @@ export class InformationComponent {
     },
   
     {
-      id: 11,
+      id: 13,
       hero: "/assets/images/single-project/portfolio-hero.jpg",
       title: "Dev Portfolio",
       description: "Portfólio em formato de Single-Page-Application Angular. O mesmo tem seu mockup desenhado via Figma, e foi transformado em código através de Angular 16. O mesmo possuo páginas com rotas dinâmicas para os distintos campos desenhados para a aplicação, e possui páginas individuais para os projetos aqui depositados.",
@@ -521,7 +592,7 @@ export class InformationComponent {
     },
   
     {
-      id: 12,
+      id: 14,
       hero: "/assets/images/projects/veritas-back-end-slide.jpg",
       title: "Project Veritas",
       description: "Aplicação Full-stack desenvolvida em Express no back-end e Next no front-end, simulando um serviço de aprendizado virtual de ciências humanas e sociais.",

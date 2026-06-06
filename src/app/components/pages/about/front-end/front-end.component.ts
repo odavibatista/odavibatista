@@ -23,7 +23,7 @@ export class FrontEndComponent {
     },
 
     {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
       name: "Next.Js"
     },
     
