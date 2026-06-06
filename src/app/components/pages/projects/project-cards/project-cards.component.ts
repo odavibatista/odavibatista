@@ -4,14 +4,13 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-project-cards',
   templateUrl: './project-cards.component.html',
-  styleUrls: ['./project-cards.component.scss']
+  styleUrls: ['./project-cards.component.scss'],
 })
 export class ProjectCardsComponent {
   @Input() cardInfo = {
     id: 0,
-    imgUrl: "",
-    title: "",
-    briefing: ""
-  }
-
+    imgUrl: '',
+    title: '',
+    briefing: '',
+  };
 }

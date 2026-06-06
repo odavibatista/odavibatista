@@ -1,104 +1,102 @@
-@import '../../../../styles.scss';
+@import "../../../../styles.scss";
 
 .navigation {
-    background-color: $dark;
-    flex-direction: row;
-    height: 79px;
-    padding: 0px 86px 0px 98px;
+  background-color: $dark;
+  flex-direction: row;
+  height: 79px;
+  padding: 0px 86px 0px 98px;
 }
 
-.navImage   {
-    width: 59px;
+.navImage {
+  width: 59px;
 }
 
-#talkToMe   {
-    background-color: $lBlue;
-    border-radius: 8px;
-    color: $dark;
-    font-weight: bold;
-    height: 40px;
-    text-align: center;
-    width: 174px;
+#talkToMe {
+  background-color: $lBlue;
+  border-radius: 8px;
+  color: $dark;
+  font-weight: bold;
+  height: 40px;
+  text-align: center;
+  width: 174px;
 
-    transition: 0.3s;
-    &:hover {
-        background-color: $cBlue;
-        color: $light;
-    }
+  transition: 0.3s;
+  &:hover {
+    background-color: $cBlue;
+    color: $light;
+  }
 }
 
-.nav-link   {
-    color: $cBlue;
-    font-family: $q;
-    font-size: 16px;
+.nav-link {
+  color: $cBlue;
+  font-family: $q;
+  font-size: 16px;
 
-    transition: 0.3s;
-    &:hover {
-        color: $lBlue;
-    }
+  transition: 0.3s;
+  &:hover {
+    color: $lBlue;
+  }
 }
 
-.navigationItems    {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.navigationItems {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.linksGap   {
-    gap: 24px;
+.linksGap {
+  gap: 24px;
 }
 
-.navbar-brand   {
-
-    transition: 0.3s;
-    &:hover {
-        filter: brightness(3.2);
-    }
+.navbar-brand {
+  transition: 0.3s;
+  &:hover {
+    filter: brightness(3.2);
+  }
 }
 
 #nav-button {
-    background-color: $cBlue;
-    color: $dark;
+  background-color: $cBlue;
+  color: $dark;
 }
 
-@media  (max-width: 991px)  {
-    #navbarSupportedContent {
-        background-color: $dark;
-        border-radius: 10px;
-        margin: 0px;
-        padding: 0px 20px 20px 20px;
-        transition: 0.2s;
-        width: 100%;
+@media (max-width: 991px) {
+  #navbarSupportedContent {
+    background-color: $dark;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px 20px 20px 20px;
+    transition: 0.2s;
+    width: 100%;
+  }
+
+  .navImage {
+    width: 53px;
+  }
+
+  .linksGap {
+    gap: 4px;
+  }
+
+  .navigation {
+    padding: 0px 3%;
+  }
+
+  #talkToMe {
+    align-items: center;
+    background-color: $dark;
+    color: $lBlue;
+    height: 20px;
+    margin: 0px;
+    margin-left: -4px;
+    margin-top: 5px;
+    padding: 0px;
+    width: 100px;
+
+    &:hover {
+      background-color: $dark;
+      color: $light;
     }
-
-    .navImage   {
-        width: 53px;
-    }
-
-    .linksGap   {
-        gap: 4px;
-    }
-
-    .navigation {
-        padding: 0px 3%;
-    }
-
-    #talkToMe   {
-        align-items: center;
-        background-color: $dark;
-        color: $lBlue;
-        height: 20px;
-        margin: 0px;
-        margin-left: -4px;
-        margin-top: 5px;
-        padding: 0px;
-        width: 100px;
-
-        &:hover {
-            background-color: $dark;
-            color: $light;
-        }
-    }
-
+  }
 }

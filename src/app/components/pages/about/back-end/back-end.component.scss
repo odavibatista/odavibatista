@@ -1,18 +1,18 @@
-@import '../../../../../styles.scss';
+@import "../../../../../styles.scss";
 
-#backEnd    {
-    align-items: center;
-    display: none;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: center;
-    margin: 25px 0px;
-    transition: 0.2s;
+#backEnd {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin: 25px 0px;
+  transition: 0.2s;
 }
 
-@media  (max-width: 991px)  {
-    #backEnd   {
-        gap: 20px;
-        padding: 0px;
-    }
+@media (max-width: 991px) {
+  #backEnd {
+    gap: 20px;
+    padding: 0px;
+  }
 }

@@ -1,103 +1,103 @@
-@import '../../../../styles.scss';
+@import "../../../../styles.scss";
 
-.talkToMe   {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    padding: 79px 0px 49px 0px;
+.talkToMe {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 79px 0px 49px 0px;
 
-    h1  {
-        color: $dark;
-        font-family: $o;
-        font-size: 48px;
-        font-weight: bold;
-        text-align: center;
-        width: 100%;
-    }
+  h1 {
+    color: $dark;
+    font-family: $o;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
 
-    p   {
-        color: $dark;
-        font-family: $o;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-        width: 80%;
-    }
+  p {
+    color: $dark;
+    font-family: $o;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+  }
 }
 
 .blueStrong {
-    color: $cBlue;
-    font-weight: inherit;
-    text-align: center;
+  color: $cBlue;
+  font-weight: inherit;
+  text-align: center;
 }
 
-.contactLinks   {
-    align-items: center;
-    color: $dark;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    text-decoration: none;
-    width: 360px;
+.contactLinks {
+  align-items: center;
+  color: $dark;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  text-decoration: none;
+  width: 360px;
 
-    transition: 0.3s;
-    &:hover {
-        color: $cBlue;
-        p   {
-            color: $cBlue;
-        }
+  transition: 0.3s;
+  &:hover {
+    color: $cBlue;
+    p {
+      color: $cBlue;
+    }
+  }
+
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .talkToMe {
+    padding: 49px 0px 0px 0px;
+
+    h1 {
+      font-size: 44px;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .talkToMe {
+    h1 {
+      font-size: 36px;
+    }
+
+    padding: 30px 0px 0px 0px;
+  }
+
+  .contactLinks {
+    gap: 10px;
+    width: 300px;
+
+    p {
+      font-size: 18px;
     }
 
     svg {
-        height: 30px;
-        width: 30px;
+      height: 25px;
+      width: 25px;
     }
-
-    p   {
-        font-size: 24px;
-        font-weight: normal;
-        margin-top: 15px;
-        text-align: left;
-    }
-}
-
-@media  (max-width: 768px)  {
-    .talkToMe   {
-        padding: 49px 0px 0px 0px;
-
-        h1  {
-            font-size: 44px;
-        }
-
-        p   {
-            width: 100%;
-        }
-    }
-}
-
-@media  (max-width: 375px)  {
-    .talkToMe   {
-        h1  {
-            font-size: 36px;
-        }
-
-        padding: 30px 0px 0px 0px;
-    }
-
-    .contactLinks   {
-        gap: 10px;
-        width: 300px;
-
-        p   {
-            font-size: 18px;
-        }
-
-        svg {
-            height: 25px;
-            width: 25px;
-        }
-    }
+  }
 }

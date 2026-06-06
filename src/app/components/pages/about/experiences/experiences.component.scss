@@ -1,64 +1,64 @@
-@import '../../../../../styles.scss';
+@import "../../../../../styles.scss";
 
-.experiences    {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
 }
 
 .actualRole {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .rolePeriod {
-    font-family: $q;
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: -10px;
+  font-family: $q;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: -10px;
 }
 
 .roleImage1 {
-    margin-right: 20px;
-    height: 158px;
-    width: 158px;
+  margin-right: 20px;
+  height: 158px;
+  width: 158px;
 }
-.roleName   {
-    color: $dark;
-    font-family: $q;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.roleDesc   {
-    font-family: $o;
-    font-size: 14px;
-    margin-top: -10px;
+.roleName {
+  color: $dark;
+  font-family: $q;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-@media  (max-width: 1024px) {
-    .roleImage1 {
-        height: 100px;
-        width: 100px;
-    }
+.roleDesc {
+  font-family: $o;
+  font-size: 14px;
+  margin-top: -10px;
 }
 
-@media  (max-width: 991px)  {
-    .experiences    {
-        flex-direction: column;
-        justify-content: center;
-    }
+@media (max-width: 1024px) {
+  .roleImage1 {
+    height: 100px;
+    width: 100px;
+  }
+}
 
-    .actualRole {
-        flex-direction: column;
-        justify-content: center;
-    }
+@media (max-width: 991px) {
+  .experiences {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .roleImage1 {
-        align-self: center;
-        height: 50%;
-        width: 50%;
-    }
+  .actualRole {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .roleImage1 {
+    align-self: center;
+    height: 50%;
+    width: 50%;
+  }
 }

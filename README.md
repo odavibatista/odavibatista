@@ -5,7 +5,7 @@
     My name is Davi Batista. I'm a fast-thinking Full-Stack Developer who lives in São Paulo, Brazil. I try to improve and evolve bothly as person and professional every single day.
     </p>
     <p>
-    Currently working as full-time CTO & Full-Stack Developer for Monétiser Technologies.
+    Currently working as Technical Lead at Synko Design Agency.
     </p> 
 <div align="left">
     <br>
