@@ -271,7 +271,7 @@ export class InformationComponent {
       hero: "https://i.imgur.com/uKqwLPN.jpeg",
       title: "Itaim Esfihas",
       description: "Este projeto teve como foco revitalizar a presença digital da empresa, honrando seu compromisso de longa data com a qualidade, o sabor e uma experiência de serviço profundamente humanizada. O objetivo era traduzir sua atmosfera acolhedora e presencial em um ambiente digital sofisticado e convidativo.",
-      deployUrl: "https://itaim-esifhas-landing-page.vercel.app/",
+      deployUrl: "https://itaimesfihas.com.br/",
       ghUrl: "https://github.com/synkodesign",
       figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
       docs: '',
