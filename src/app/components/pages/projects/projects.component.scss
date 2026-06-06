@@ -28,5 +28,51 @@
         font-size: 14px;
         font-weight: 500;
     }
+
+    .projectGroup {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 34px;
+        max-width: 100%;
+        width: 100%;
+
+        h2 {
+            color: $cBlue;
+            font-family: $o;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .projectSplide {
+            align-self: stretch;
+            box-sizing: border-box;
+            padding: 0 3rem;
+            width: 100%;
+        }
+    }
+
+    .emptyState {
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 0.75;
+    }
+
+    @media (max-width: 768px) {
+        .projectGroup {
+            .projectSplide {
+                padding: 0 1rem;
+            }
+        }
+    }
+
+    @media (max-width: 512px) {
+        .projectGroup {
+            .projectSplide {
+                padding: 0 0.75rem;
+            }
+        }
+    }
 }
 
