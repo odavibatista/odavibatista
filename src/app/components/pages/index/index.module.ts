@@ -3,12 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { IndexRoutingModule } from './index-routing.module';
 
-
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    IndexRoutingModule
-  ]
+  imports: [CommonModule, IndexRoutingModule],
 })
-export class IndexModule { }
+export class IndexModule {}

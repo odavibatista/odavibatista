@@ -1,19 +1,24 @@
 <section class="projects">
-    <h1>Projetos e trabalhos</h1>
-    <p>Projetos que abrangem várias tecnologias, para cumprirem vários objetivos.</p>
-    <div class="projectGroup" *ngFor="let section of projectSections">
-        <h2>{{ section.title }}</h2>
-        <p class="smallText">(Arraste para ver mais!)</p>
-        <splide 
-        *ngIf="section.projects.length > 0; else emptyState"
-        class="projectSplide"
-        [options]="section.options">
-            <splide-slide *ngFor="let project of section.projects; trackBy: trackByProjectId">
-                <app-project-cards [cardInfo]="project"></app-project-cards>
-            </splide-slide>
-        </splide>
-        <ng-template #emptyState>
-            <p class="emptyState">Nenhum projeto cadastrado nesta categoria ainda.</p>
-        </ng-template>
-    </div>
+  <h1>Projetos e trabalhos</h1>
+  <p>
+    Projetos que abrangem várias tecnologias, para cumprirem vários objetivos.
+  </p>
+  <div class="projectGroup" *ngFor="let section of projectSections">
+    <h2>{{ section.title }}</h2>
+    <p class="smallText">(Arraste para ver mais!)</p>
+    <splide
+      *ngIf="section.projects.length > 0; else emptyState"
+      class="projectSplide"
+      [options]="section.options"
+    >
+      <splide-slide
+        *ngFor="let project of section.projects; trackBy: trackByProjectId"
+      >
+        <app-project-cards [cardInfo]="project"></app-project-cards>
+      </splide-slide>
+    </splide>
+    <ng-template #emptyState>
+      <p class="emptyState">Nenhum projeto cadastrado nesta categoria ainda.</p>
+    </ng-template>
+  </div>
 </section>

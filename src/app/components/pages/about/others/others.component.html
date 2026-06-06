@@ -1,6 +1,9 @@
-<div class="container text-center align-items-center justify-content-center" id="others">
-    <div *ngFor="let tech of Others; let i = index" class="techColumn">
-        <img src="{{tech.url}}" alt="{{tech.name}}" class="techImage">
-        <p class="techName">{{tech.name}}</p>
-    </div>
+<div
+  class="container text-center align-items-center justify-content-center"
+  id="others"
+>
+  <div *ngFor="let tech of Others; let i = index" class="techColumn">
+    <img src="{{ tech.url }}" alt="{{ tech.name }}" class="techImage" />
+    <p class="techName">{{ tech.name }}</p>
+  </div>
 </div>

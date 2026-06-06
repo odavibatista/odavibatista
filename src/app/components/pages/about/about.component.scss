@@ -1,4 +1,4 @@
-@import '../../../../styles.scss';
+@import "../../../../styles.scss";
 
 .aboutSection {
   display: flex;
@@ -37,7 +37,7 @@
   font-size: 20px;
   font-weight: bold;
 
-  transition: .25s ease;
+  transition: 0.25s ease;
 
   &:hover {
     background-color: $dark;
@@ -57,7 +57,7 @@
 .skillsDiv,
 .workDiv,
 .studiesDiv {
-  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, .47);
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.47);
 }
 
 .skillsDiv {
@@ -144,10 +144,10 @@
 
   cursor: pointer;
 
-  transition: .2s ease;
+  transition: 0.2s ease;
 
   &:hover {
-    filter: brightness(.95);
+    filter: brightness(0.95);
   }
 
   &.active {
@@ -167,7 +167,6 @@
 /* Tablet */
 
 @media (max-width: 991px) {
-
   .aboutSection {
     gap: 20px;
   }
@@ -175,13 +174,11 @@
   .infoDiv {
     width: 400px;
   }
-
 }
 
 /* Mobile */
 
 @media (max-width: 768px) {
-
   .aboutSection {
     flex-direction: column;
     align-items: center;
@@ -221,13 +218,11 @@
   .techBtns {
     width: 80px;
   }
-
 }
 
 /* Small phones */
 
 @media (max-width: 426px) {
-
   .infoDiv {
     width: 100%;
   }
@@ -239,5 +234,4 @@
   .skillsTitle {
     font-size: 20px;
   }
-
 }

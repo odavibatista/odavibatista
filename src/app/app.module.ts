@@ -31,7 +31,7 @@ import { ResumeComponent } from './components/common/icons/resume/resume.compone
 import { ClientsComponent } from './components/pages/services/clients/clients.component';
 import { ServicesListComponent } from './components/pages/services/services-list/services-list.component';
 
-export function playerFactory(): any {  
+export function playerFactory(): any {
   return import('lottie-web');
 }
 
@@ -60,16 +60,16 @@ export function playerFactory(): any {
     WhatsappComponent,
     ResumeComponent,
     ClientsComponent,
-    ServicesListComponent
+    ServicesListComponent,
   ],
   imports: [
     BrowserModule,
     CommonModule,
     AppRoutingModule,
     NgxSplideModule,
-    LottieModule.forRoot({ player: playerFactory }),  
+    LottieModule.forRoot({ player: playerFactory }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

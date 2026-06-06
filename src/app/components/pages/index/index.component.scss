@@ -1,107 +1,107 @@
-@import '../../../../styles.scss';
+@import "../../../../styles.scss";
 
-.indexPage  {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 6%;
-    justify-content: space-between;
-    margin-left: -21px;
-    margin-right: -21px;
-    padding: 80px 0px 0px 0px;
-    width: 100%;
+.indexPage {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 6%;
+  justify-content: space-between;
+  margin-left: -21px;
+  margin-right: -21px;
+  padding: 80px 0px 0px 0px;
+  width: 100%;
 }
 
-.informationContainer   {
-    display: flex;
-    flex-direction: column;
-    font-family: $q;
-    gap: 2px;
-    margin: 0px 0px;
+.informationContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: $q;
+  gap: 2px;
+  margin: 0px 0px;
 }
 
-.myNameIs   {
-    font-size: 36px;
-    margin-left: -2px;
+.myNameIs {
+  font-size: 36px;
+  margin-left: -2px;
 }
 
 .myName {
-    color: $cBlue;
-    font-family: $o;
-    font-size: 68px;
-    font-weight: bolder;
-    margin-left: -2px;
-    margin-top: -40px;
+  color: $cBlue;
+  font-family: $o;
+  font-size: 68px;
+  font-weight: bolder;
+  margin-left: -2px;
+  margin-top: -40px;
 }
 
 .occupation {
-    color: $dark;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: -35px;
+  color: $dark;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -35px;
 }
 
-.blueLine   {
-    background-color: $cBlue;
-    height: 2px;
-    margin-top: -10px;
+.blueLine {
+  background-color: $cBlue;
+  height: 2px;
+  margin-top: -10px;
 }
 
-.iconsDiv   {
-    display: flex;
-    flex-direction: row;
-    gap: 19px;
-    margin-left: 5px;
-    margin-top: 10px;
+.iconsDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 .animationContainer {
-    margin-right: -70px;
-    width: 40%;
+  margin-right: -70px;
+  width: 40%;
 }
 
-@media  (max-width: 1039px) {
-    .indexPage  {
-        margin-left: 0px;
-        margin: 20px;
-    }
+@media (max-width: 1039px) {
+  .indexPage {
+    margin-left: 0px;
+    margin: 20px;
+  }
 
-    .myNameIs   {
-        font-size: 24px;
-    }
+  .myNameIs {
+    font-size: 24px;
+  }
 
-    .myName {
-        font-size: 48px;
-    }
+  .myName {
+    font-size: 48px;
+  }
 
-    .occupation {
-        font-size: 14px;
-    }
-    .animationContainer {
-        margin: 0px;
-    }
+  .occupation {
+    font-size: 14px;
+  }
+  .animationContainer {
+    margin: 0px;
+  }
 }
 
-@media  (max-width: 676px)  {
-    .indexPage {
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        margin: 0px;
-        padding: 40px 0px 0px 0px;
-    }
+@media (max-width: 676px) {
+  .indexPage {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 40px 0px 0px 0px;
+  }
 
-    .informationContainer   {
-        align-items: center;
-    }
+  .informationContainer {
+    align-items: center;
+  }
 
-    .animationContainer {
-        width: 80%;
-        margin-right: 0px;
-    }
+  .animationContainer {
+    width: 80%;
+    margin-right: 0px;
+  }
 
-    .blueLine   {
-        width: 100%;
-    }
+  .blueLine {
+    width: 100%;
+  }
 }

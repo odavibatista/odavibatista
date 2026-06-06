@@ -8,7 +8,7 @@ describe('GithubComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [GithubComponent]
+      declarations: [GithubComponent],
     });
     fixture = TestBed.createComponent(GithubComponent);
     component = fixture.componentInstance;

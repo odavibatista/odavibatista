@@ -1,16 +1,16 @@
-@import '../../../../styles.scss';
-.services   {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 79px;
-    justify-content: center;
-    margin-bottom: -35px;
-    padding: 65px 0px 0px 0px;
+@import "../../../../styles.scss";
+.services {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 79px;
+  justify-content: center;
+  margin-bottom: -35px;
+  padding: 65px 0px 0px 0px;
 }
 
-@media  (max-width: 768px)  {
-    .services   {
-        gap: 35px;
-    }
+@media (max-width: 768px) {
+  .services {
+    gap: 35px;
+  }
 }
