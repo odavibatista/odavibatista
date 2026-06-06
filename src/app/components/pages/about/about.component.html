@@ -14,14 +14,44 @@
                     </svg>
                     <h1 class="skillsTitle">Minhas Tecnologias</h1>
                 </span>
-                <app-front-end></app-front-end>
-                <app-back-end></app-back-end>
-                <app-others></app-others>
-                <div class="techSelector">
-                    <button class="techBtns" id="frontEndBtn" (click)="(frontEnd())">Front-End</button>
-                    <button class="techBtns" id="backEndBtn" (click)="backEnd()">Back-End</button>
-                    <button class="techBtns" id="othersBtn" (click)="others()">Outras</button>
-                </div>
+<app-front-end
+  *ngIf="activeTab === 'frontend'"
+></app-front-end>
+
+<app-back-end
+  *ngIf="activeTab === 'backend'"
+></app-back-end>
+
+<app-others
+  *ngIf="activeTab === 'others'"
+></app-others>
+<div class="techSelector">
+
+  <button
+    class="techBtns"
+    [class.active]="activeTab === 'frontend'"
+    (click)="selectTab('frontend')"
+  >
+    Front-End
+  </button>
+
+  <button
+    class="techBtns"
+    [class.active]="activeTab === 'backend'"
+    (click)="selectTab('backend')"
+  >
+    Back-End
+  </button>
+
+  <button
+    class="techBtns"
+    [class.active]="activeTab === 'others'"
+    (click)="selectTab('others')"
+  >
+    Outras
+  </button>
+
+</div>
             </div>
         </div>
         <div class="workDiv">
