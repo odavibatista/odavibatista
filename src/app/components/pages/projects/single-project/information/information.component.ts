@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-
 @Component({
   selector: 'app-information',
   templateUrl: './information.component.html',
@@ -33,7 +32,7 @@ export class InformationComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -71,7 +70,7 @@ export class InformationComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -129,7 +128,7 @@ export class InformationComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -149,7 +148,7 @@ export class InformationComponent {
         },
 
         {
-          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+          url: "https://images.seeklogo.com/logo-png/44/1/typeorm-logo-png_seeklogo-443592.png",
           name: "TypeORM"
         },
 
@@ -268,7 +267,7 @@ export class InformationComponent {
     },
 
     {
-      id: 7,
+      id: 20,
       hero: "https://i.imgur.com/uKqwLPN.jpeg",
       title: "Itaim Esfihas",
       description: "Este projeto teve como foco revitalizar a presença digital da empresa, honrando seu compromisso de longa data com a qualidade, o sabor e uma experiência de serviço profundamente humanizada. O objetivo era traduzir sua atmosfera acolhedora e presencial em um ambiente digital sofisticado e convidativo.",
@@ -284,7 +283,7 @@ export class InformationComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -301,7 +300,7 @@ export class InformationComponent {
     },
 
     {
-      id: 7,
+      id: 6,
       hero: "/assets/images/projects/devs-den-slide.jpg",
       title: "Dev's Den",
       description: "App full-stack simulando um site de empregos para profissionais de T.I. e Programação, desenvolvido para as disciplinas de Usabilidade e Desenvolvimento Web + Sistemas Distribuídos. O app utiliza NestJS + TypeORM no back-end com Swagger documentando todos os endpoints da API, contando com testes unitários em algumas camadas, enquanto utiliza NextJS + SCSS + Zod no front-end.",
@@ -317,7 +316,7 @@ export class InformationComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -337,7 +336,7 @@ export class InformationComponent {
         },
 
         {
-          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+          url: "https://images.seeklogo.com/logo-png/44/1/typeorm-logo-png_seeklogo-443592.png",
           name: "TypeORM"
         },
 
@@ -374,7 +373,7 @@ export class InformationComponent {
     },
 
     {
-      id: 8,
+      id: 7,
       hero: "/assets/images/single-project/mybookshelf-hero.jpg",
       title: "MyBookshelf",
       description: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles. Construído através de projeto Maven, com interface gráfica da bibliotca javax.swing, e compatibilidade para bancos de dados MySQL e PostgreSQL",
@@ -407,7 +406,7 @@ export class InformationComponent {
     },
 
     {
-      id: 9,
+      id: 8,
       hero: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       description: "Template em código open-source de bot de Discord, integrado com funcionalidades para jogos de tabuleiro baseados em rolagens de dados, contendo alta capacidade de customização, clonagem e uso local por parte do usuário. Com funções para os tipos de dados de jogo mais comuns, a aplicação vem com tudo que é necessário para se iniciar suas jogatinas!",
@@ -450,7 +449,7 @@ export class InformationComponent {
     },
     
     {
-      id: 10,
+      id: 9,
       hero: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       description: "Projeto ainda em construção. Feito majoritariamente através de NuxtJS, TailWindCSS, NodeJS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível. Front-end construído via NuxtJS, TailWindCSS e TypeScript, back-end construído com NodeJS, MongoDB, Express, e Mongoose.",
@@ -498,7 +497,7 @@ export class InformationComponent {
     },
 
     {
-      id: 11,
+      id: 10,
       hero: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       description: "Projeto construído através de Angular 16. Neste, realizo o uso da API Spoonacular, um serviço dedicado que contém diversas receitas, com seus ingredientes, imagens e modo de preparo. Através da integração entre a aplicação front-end e a API, construo um site de receitas em inglês em formato de Single Page Application, que faz requisições reais à API para extração de informações e renderização das mesmas via rotas dinâmicas.",
@@ -531,7 +530,7 @@ export class InformationComponent {
     },
     
     {
-      id: 12,
+      id: 11,
       hero: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       description: "Pequena aplicação construída para a execução de rolagens de dados do sistema Exalted, mas também compatível com VTM. O projeto foi construído para ser utilizado por um grupo de jogadores de RPG que fazem uso do sistema e nem sempre podem contar com um bot hosteado de modo integral, para que assim pudéssem realizar suas jogadas com uma aplicação que não dependesse de hospedagem local. A aplicação conta com taxa de sucesso pré-definida e registro de resultados e sucessos.",
@@ -554,7 +553,7 @@ export class InformationComponent {
     },
   
     {
-      id: 13,
+      id: 12,
       hero: "/assets/images/single-project/portfolio-hero.jpg",
       title: "Dev Portfolio",
       description: "Portfólio em formato de Single-Page-Application Angular. O mesmo tem seu mockup desenhado via Figma, e foi transformado em código através de Angular 16. O mesmo possuo páginas com rotas dinâmicas para os distintos campos desenhados para a aplicação, e possui páginas individuais para os projetos aqui depositados.",
@@ -592,7 +591,7 @@ export class InformationComponent {
     },
   
     {
-      id: 14,
+      id: 13,
       hero: "/assets/images/projects/veritas-back-end-slide.jpg",
       title: "Project Veritas",
       description: "Aplicação Full-stack desenvolvida em Express no back-end e Next no front-end, simulando um serviço de aprendizado virtual de ciências humanas e sociais.",
@@ -628,7 +627,7 @@ export class InformationComponent {
         },
 
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -647,7 +646,7 @@ export class InformationComponent {
     },
 
     {
-  id: 13,
+  id: 14,
   hero: "/assets/images/projects/state-machine-apps-slide.jpg",
   title: "State Machine Apps",
   description: "Conjunto de aplicações desenvolvidas para a disciplina de Teoria da Computação e Compiladores. O projeto utiliza React e TypeScript para simular o funcionamento de autômatos finitos determinísticos através de dois estudos de caso: uma máquina de vendas (Vending Machine) e um elevador inteligente com estados, transições e regras de operação.",
@@ -677,7 +676,7 @@ export class InformationComponent {
 },
 
 {
-  id: 14,
+  id: 15,
   hero: "/assets/images/projects/vulgata-bot-slide.jpg",
   title: "Vulgata Discord Bot",
   description: "Bot para Discord desenvolvido em Python capaz de consultar versículos da Vulgata Latina em tempo real através de Slash Commands. O sistema realiza scraping da plataforma Vulgata Online, interpreta o HTML retornado utilizando BeautifulSoup e entrega os versículos diretamente dentro do Discord.",
@@ -707,7 +706,7 @@ export class InformationComponent {
 },
 
 {
-  id: 15,
+  id: 16,
   hero: "/assets/images/projects/vivace-hotels-slide.jpg",
   title: "Vivace Hotels",
   description: "Landing Page institucional criada para estudos de UI/UX Design e desenvolvimento Front-End. O projeto simula a presença digital da rede fictícia Vivace Hotels, tendo sido inteiramente planejado no Figma antes de sua implementação utilizando React, TypeScript e SCSS.",
@@ -741,7 +740,7 @@ export class InformationComponent {
 },
 
 {
-  id: 16,
+  id: 17,
   hero: "/assets/images/projects/nestjs-boilerplate-slide.jpg",
   title: "NestJS Boilerplate",
   description: "Boilerplate profissional para APIs NestJS contendo autenticação JWT, criptografia integrada com Bcrypt, TypeORM, Swagger, Docker, Seeds, Cache Manager, Zod, Class Validator e suporte para PostgreSQL e MySQL. O objetivo do projeto é acelerar o início de novas aplicações corporativas.",
@@ -756,7 +755,7 @@ export class InformationComponent {
       name: "NestJS"
     },
     {
-      url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+      url: "https://miro.medium.com/v2/1*gXeNLcbUqvKHkt9gkDgsFg.png",
       name: "TypeORM"
     },
     {
@@ -778,7 +777,7 @@ export class InformationComponent {
   ]
 },
 {
-  id: 17,
+  id: 18,
   hero: "/assets/images/projects/wecryptit-slide.jpg",
   title: "WeCryptIt",
 description: "Ferramenta web para criptografia de matrizes utilizando AES-256 com chave composta. O projeto explora conceitos de criptografia simétrica, vetores de inicialização (IV), geração de chaves e proteção de dados, oferecendo uma interface capaz de criptografar e restaurar estruturas matriciais de forma segura. Desenvolvido como estudo prático de Segurança da Informação, algoritmos criptográficos e integração entre lógica de negócio e experiência do usuário.",  deployUrl: "https://we-cryptit.vercel.app/",
@@ -814,7 +813,7 @@ description: "Ferramenta web para criptografia de matrizes utilizando AES-256 co
   ]
 },
 {
-  id: 18,
+  id: 19,
   hero: "/assets/images/projects/core-notes-slide.jpg",
   title: "Core Notes",
   description: "Aplicação full-stack de gerenciamento de notas desenvolvida como teste técnico para a CoreLab. O projeto utiliza NestJS, Prisma, MySQL, Redis e JWT no back-end, além de NextJS, TypeScript e SCSS no front-end. Entre seus principais diferenciais estão a criptografia AES-256 aplicada ao conteúdo das notas, autenticação segura baseada em tokens, cache com Redis, documentação automática via Swagger, testes automatizados e uma arquitetura baseada nos princípios de Clean Architecture.",
@@ -837,7 +836,7 @@ description: "Ferramenta web para criptografia de matrizes utilizando AES-256 co
       name: "NestJS"
     },
     {
-      url: "https://seeklogo.com/images/P/prisma-logo-3805665B69-seeklogo.com.png",
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original-wordmark.svg",
       name: "Prisma"
     },
     {
@@ -859,6 +858,38 @@ description: "Ferramenta web para criptografia de matrizes utilizando AES-256 co
   ]
 },
   
+  {
+      id: 20,
+      hero: "https://i.imgur.com/uKqwLPN.jpeg",
+      title: "Itaim Esfihas",
+      description: "Case de rebranding e de construção de site e refatoração das redes sociais de um restaurante de longa data da Zona Sul de São Paulo.",
+      deployUrl: "https://itaimesfihas.com.br/",
+      ghUrl: "",
+      figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
+      docs: '',
+      dbUrl: '',
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+          name: "NextJs"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+      ]
+    },
   ]
 
   ngOnInit(): void {
@@ -870,17 +901,15 @@ description: "Ferramenta web para criptografia de matrizes utilizando AES-256 co
     this.route.queryParams.subscribe((queryParams: any) => {
       this.projectId = queryParams['id']
     });
-
-    console.log(this.project)
   }
 
   getProject(id: number) {
-    this.project = this.Projects[id - 1]
+    this.project = this.Projects.find(project => project.id == id);
   }
 
   @Input() cardInfo = {
     id: 1,
-    imgUrl: "",
+    hero: "",
     title: "",
     description: "",
     deployUrl: "",

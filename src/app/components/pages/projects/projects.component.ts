@@ -13,6 +13,7 @@ interface Project {
   title: string;
   briefing: string;
   deployUrl: string;
+  featured: boolean;
   ghUrl: string;
   figmaUrl: string;
   docs: string;
@@ -46,6 +47,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: '',
       type: "front-end",
+      featured: true,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -53,7 +55,7 @@ export class ProjectsComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -78,6 +80,7 @@ export class ProjectsComponent {
       figmaUrl: "https://www.figma.com/file/vZJZKZspo13MtoJf2AmpEJ/Trattoria--Fedeli?type=design&node-id=0%3A1&mode=design&t=qR4YgEoAc4WmuN06-1",
       docs: '',
       type: "full-stack",
+      featured: true,
       dbUrl: 'https://github.com/odavibatista/trattoria-fedeli-backend',
       technologies: [
         {
@@ -86,7 +89,7 @@ export class ProjectsComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -128,68 +131,6 @@ export class ProjectsComponent {
     },
 
     {
-      id: 13,
-      imgUrl: "/assets/images/projects/state-machine-apps-slide.jpg",
-      title: "State Machine Apps",
-      briefing: "Conjunto de aplicações desenvolvidas para representar conceitos de Teoria da Computação através da simulação de autômatos finitos determinísticos.",
-      deployUrl: "https://state-machine-apps.vercel.app/",
-      ghUrl: "https://github.com/odavibatista/state-machine-apps",
-      figmaUrl: "",
-      docs: "https://github.com/odavibatista/state-machine-apps#readme",
-      dbUrl: "",
-      type: "front-end",
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-          name: "React"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
-          name: "Vite"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-          name: "CSS Modules"
-        }
-      ]
-    },
-
-    {
-      id: 14,
-      imgUrl: "/assets/images/projects/vulgata-bot-slide.jpg",
-      title: "Vulgata Discord Bot",
-      briefing: "Bot para Discord capaz de consultar versículos da Vulgata Latina em tempo real através de Slash Commands.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/vulgata-discord-bot",
-      figmaUrl: "",
-      docs: "https://github.com/odavibatista/vulgata-discord-bot#readme",
-      dbUrl: "",
-      type: "back-end",
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-          name: "Python"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg",
-          name: "Discord API"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-          name: "BeautifulSoup"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-          name: "Requests"
-        }
-      ]
-    },
-
-    {
       id: 3,
       imgUrl: "/assets/images/projects/wits-slide.jpg",
       title: "Wits!",
@@ -200,6 +141,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: 'https://github.com/odavibatista/wits-site-api',
       type: "full-stack",
+      featured: true,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -207,7 +149,7 @@ export class ProjectsComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -227,7 +169,7 @@ export class ProjectsComponent {
         },
 
         {
-          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+          url: "https://images.seeklogo.com/logo-png/44/1/typeorm-logo-png_seeklogo-443592.png",
           name: "TypeORM"
         },
 
@@ -274,6 +216,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: '',
       type: "front-end",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
@@ -319,6 +262,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: '',
       type: "front-end",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -348,154 +292,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 15,
-      imgUrl: "/assets/images/projects/vivace-hotels-slide.jpg",
-      title: "Vivace Hotels",
-      briefing: "Landing Page institucional desenvolvida para fins de estudo em UI/UX Design e desenvolvimento front-end, simulando a presença digital da rede fictícia de pousadas Vivace Hotels.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/vivace-hotels",
-      figmaUrl: "https://www.figma.com/file/YthDo58TItOrjkhOk11nlf/Vivace-Hotels",
-      docs: "https://github.com/odavibatista/vivace-hotels#readme",
-      dbUrl: "",
-      type: "front-end",
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-          name: "React"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-          name: "SCSS"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-          name: "Figma"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
-          name: "Vite"
-        }
-      ]
-    },
-
-    {
-      id: 16,
-      imgUrl: "/assets/images/projects/nestjs-boilerplate-slide.jpg",
-      title: "NestJS Boilerplate",
-      briefing: "Boilerplate backend para aplicações NestJS contendo autenticação JWT, criptografia com Bcrypt, TypeORM, Swagger, Docker, Seeds, Cache e validações com Zod e Class Validator.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/nestjs-boilerplate",
-      figmaUrl: "",
-      docs: "https://github.com/odavibatista/nestjs-boilerplate#readme",
-      dbUrl: "",
-      type: "back-end",
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
-          name: "NestJS"
-        },
-        {
-          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
-          name: "TypeORM"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-          name: "PostgreSQL"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-          name: "MySQL"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-          name: "Docker"
-        },
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
-          name: "Swagger"
-        }
-      ]
-    },
-
-    {
-  id: 17,
-  imgUrl: "/assets/images/projects/wecryptit-slide.jpg",
-  title: "WeCryptIt",
-  briefing: "Aplicação web voltada para criptografia e proteção de informações, desenvolvida para demonstrar conceitos de segurança da informação, criptografia e experiência do usuário.",
-  deployUrl: "https://we-crypt-it.vercel.app//",
-  ghUrl: "https://github.com/odavibatista/we-crypt-it",
-  figmaUrl: "",
-  docs: "https://github.com/odavibatista/we-crypt-it#readme",
-  dbUrl: "https://github.com/odavibatista/we-crypt-it-api",
-  type: "full-stack",
-  technologies: [
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      name: "React"
-    },
-
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      name: "TypeScript"
-    },
-
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
-      name: "Vite"
-    },
-
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      name: "CSS"
-    },
-
-    {
-      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      name: "Git"
-    }
-  ]
-},
-
-        {
       id: 6,
-      imgUrl: "https://i.imgur.com/uKqwLPN.jpeg",
-      title: "Itaim Esfihas",
-      briefing: "Case de rebranding e de construção de site e refatoração das redes sociais de um restaurante de longa data da Zona Sul de São Paulo.",
-      deployUrl: "https://itaim-esifhas-landing-page.vercel.app/",
-      ghUrl: "",
-      figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
-      docs: '',
-      dbUrl: '',
-      type: "front-end",
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
-        
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
-          name: "NextJs"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-          name: "Sass/Scss"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-          name: "Figma"
-        },
-      ]
-    },
-
-    {
-      id: 7,
       imgUrl: "/assets/images/projects/devs-den-slide.jpg",
       title: "Dev's Den",
       briefing: "App full-stack simulando um site de empregos para profissionais de T.I. e Programação, desenvolvido para as disciplinas de Usabilidade e Desenvolvimento Web + Sistemas Distribuídos.",
@@ -505,6 +302,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: 'https://github.com/odavibatista/devs-den-api',
       type: "full-stack",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -512,7 +310,7 @@ export class ProjectsComponent {
         },
         
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
           name: "NextJs"
         },
 
@@ -532,7 +330,7 @@ export class ProjectsComponent {
         },
 
         {
-          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+          url: "https://miro.medium.com/v2/1*gXeNLcbUqvKHkt9gkDgsFg.png",
           name: "TypeORM"
         },
 
@@ -569,7 +367,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 8,
+      id: 7,
       imgUrl: "/assets/images/single-project/mybookshelf-hero.jpg",
       title: "MyBookshelf",
       briefing: "Aplicativo Desktop construído em Java, para a criação de um acervo virtual que contém informações sobre livros, além de avaliações e controle de qualidade deles.",
@@ -579,6 +377,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: '',
       type: "desktop",  
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
@@ -603,7 +402,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 9,
+      id: 8,
       imgUrl: "/assets/images/single-project/vivi-bot-hero.jpg",
       title: "Vivi Bot",
       briefing: "Projeto de bot de Discord open-source, feito com NodeJs e TypeScript pela biblioteca DiscordJS. Possui funções nativas para as jogadas de dados, e a aplicação pode ser clonada.",
@@ -613,6 +412,7 @@ export class ProjectsComponent {
       docs: 'https://github.com/odavibatista/vivi-bot/tree/V2.3/commands#readme',
       dbUrl: 'https://dash.daki.cc/',
       type: "back-end",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
@@ -647,7 +447,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 10,
+      id: 9,
       imgUrl: "/assets/images/single-project/daniels-hero.jpg",
       title: "Daniels' Steaks",
       briefing: "Projeto em construção através de NuxtJS, TailWindCSS e MongoDB, para simular uma linha de açougues nacional de alta qualidade e preço acessível.",
@@ -657,6 +457,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: 'https://github.com/odavibatista/daniels-steaks-backend',
       type: "full-stack",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
@@ -696,7 +497,7 @@ export class ProjectsComponent {
     },
 
     {
-      id: 11,
+      id: 10,
       imgUrl: "/assets/images/single-project/delibites-hero.jpg",
       title: "Delibites Recipes",
       briefing: "Projeto de um site de receitas, feito com a API Spoonacular e construído via Angular 16. Neste projeto, uso das opções de renderização e componentização do Angular para treinar o framework e o uso de APIs.",
@@ -706,6 +507,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: '',
       type: "full-stack",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
@@ -730,7 +532,7 @@ export class ProjectsComponent {
     },
     
     {
-      id: 12,
+      id: 11,
       imgUrl: "/assets/images/projects/exalted-roll-slide.jpg",
       title: "Exalted Dice Rolling",
       briefing: "Aplicativo de rolagem de dados para sistemas Exalted/VTM, com taxas de sucesso e impressão dos resultados e seus tipos na interface do usuário, feito com SCSS e JavaScript.",
@@ -740,6 +542,7 @@ export class ProjectsComponent {
       docs: '',
       dbUrl: '',
       type: "front-end",
+      featured: false,
       technologies: [
         {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -752,9 +555,269 @@ export class ProjectsComponent {
         },
       ]
     },
+    
+    {
+      id: 12,
+      imgUrl: "/assets/images/single-project/portfolio-hero.jpg",
+      title: "Dev Portfolio",
+      briefing: "Single Page Application produzida com Angular 16, Bootstrap e SCSS, com wireframe desenhado no Figma para a criação e estilização do projeto e suas funcionalidades.",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/odavibatista",
+      figmaUrl: "https://www.figma.com/file/gnttWmAfu7TyKYY1WHzHGw/Portfolio---V2?type=design&node-id=3-14&mode=design&t=hA68nkqzdyHtvUgB-0",
+      docs: '',
+      dbUrl: '',
+      type: "front-end",
+      featured: false,
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+          name: "Angular"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+          name: "Bootstrap"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "Sass/Scss"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+      ]
+    },
+
   
     {
-  id: 18,
+      id: 13,
+      imgUrl: "/assets/images/projects/veritas-back-end-slide.jpg",
+      title: "Project Veritas",
+      briefing: "Aplicação Full-stack desenvolvida em Express no back-end e Next no front-end, simulando um serviço de aprendizado virtual de ciências humanas e sociais.",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/project-veritas-frontend",
+      figmaUrl: "",
+      docs: '',
+      dbUrl: 'https://github.com/odavibatista/project-veritas-backend',
+      type: "full-stack",
+      featured: false,
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+          name: "sequelize"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+          name: "Postgres"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          name: "Express"
+        },
+
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          name: "Node.js"
+        },
+      ]
+    },
+    {
+      id: 14,
+      imgUrl: "/assets/images/projects/state-machine-apps-slide.jpg",
+      title: "State Machine Apps",
+      briefing: "Conjunto de aplicações desenvolvidas para representar conceitos de Teoria da Computação através da simulação de autômatos finitos determinísticos.",
+      deployUrl: "https://state-machine-apps.vercel.app/",
+      ghUrl: "https://github.com/odavibatista/state-machine-apps",
+      figmaUrl: "",
+      docs: "https://github.com/odavibatista/state-machine-apps#readme",
+      dbUrl: "",
+      type: "front-end",
+      featured: true,
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          name: "React"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+          name: "Vite"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          name: "CSS Modules"
+        }
+      ]
+    },
+    {
+      id: 15,
+      imgUrl: "/assets/images/projects/vulgata-bot-slide.jpg",
+      title: "Vulgata Discord Bot",
+      briefing: "Bot para Discord capaz de consultar versículos da Vulgata Latina em tempo real através de Slash Commands.",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/vulgata-discord-bot",
+      figmaUrl: "",
+      docs: "https://github.com/odavibatista/vulgata-discord-bot#readme",
+      dbUrl: "",
+      type: "back-end",
+      featured: true,
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          name: "Python"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg",
+          name: "Discord API"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          name: "BeautifulSoup"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          name: "Requests"
+        }
+      ]
+    },
+
+    {
+      id: 16,
+      imgUrl: "/assets/images/projects/vivace-hotels-slide.jpg",
+      title: "Vivace Hotels",
+      briefing: "Landing Page institucional desenvolvida para fins de estudo em UI/UX Design e desenvolvimento front-end, simulando a presença digital da rede fictícia de pousadas Vivace Hotels.",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/vivace-hotels",
+      figmaUrl: "https://www.figma.com/file/YthDo58TItOrjkhOk11nlf/Vivace-Hotels",
+      docs: "https://github.com/odavibatista/vivace-hotels#readme",
+      dbUrl: "",
+      type: "front-end",
+      featured: false,
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          name: "React"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          name: "SCSS"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          name: "Figma"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+          name: "Vite"
+        }
+      ]
+    },
+
+    {
+      id: 17,
+      imgUrl: "/assets/images/projects/nestjs-boilerplate-slide.jpg",
+      title: "NestJS Boilerplate",
+      briefing: "Boilerplate backend para aplicações NestJS contendo autenticação JWT, criptografia com Bcrypt, TypeORM, Swagger, Docker, Seeds, Cache e validações com Zod e Class Validator.",
+      deployUrl: "",
+      ghUrl: "https://github.com/odavibatista/nestjs-boilerplate",
+      figmaUrl: "",
+      docs: "https://github.com/odavibatista/nestjs-boilerplate#readme",
+      dbUrl: "",
+      type: "back-end",
+      featured: true,
+      technologies: [
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+          name: "NestJS"
+        },
+        {
+          url: "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+          name: "TypeORM"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+          name: "PostgreSQL"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+          name: "MySQL"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+          name: "Docker"
+        },
+        {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
+          name: "Swagger"
+        }
+      ]
+    },
+
+    {
+      id: 18,
+      imgUrl: "/assets/images/projects/wecryptit-slide.jpg",
+      title: "WeCryptIt",
+  briefing: "Aplicação web voltada para criptografia e proteção de informações, desenvolvida para demonstrar conceitos de segurança da informação, criptografia e experiência do usuário.",
+  deployUrl: "https://we-crypt-it.vercel.app//",
+  ghUrl: "https://github.com/odavibatista/we-crypt-it",
+  figmaUrl: "",
+  docs: "https://github.com/odavibatista/we-crypt-it#readme",
+  dbUrl: "https://github.com/odavibatista/we-crypt-it-api",
+  type: "full-stack",
+  featured: true,
+  technologies: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      name: "TypeScript"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+      name: "Vite"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      name: "CSS"
+    },
+
+    {
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      name: "Git"
+    }
+  ]
+},
+
+  
+    {
+  id: 19,
   imgUrl: "/assets/images/projects/core-notes-slide.jpg",
   title: "Core Notes",
   briefing: "Aplicação full-stack de gerenciamento de notas para treino de utilização de Cache, Arquitetura DDD e outros conceitos avançados de back-end.",
@@ -764,6 +827,7 @@ export class ProjectsComponent {
   docs: "https://github.com/odavibatista/corelab-api-challenge#readme",
   dbUrl: "https://github.com/odavibatista/corelab-api-challenge",
   type: "full-stack",
+  featured: false,
   technologies: [
     {
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
@@ -799,26 +863,27 @@ export class ProjectsComponent {
     }
   ]
     },
-    {
-      id: 13,
-      imgUrl: "/assets/images/single-project/portfolio-hero.jpg",
-      title: "Dev Portfolio",
-      briefing: "Single Page Application produzida com Angular 16, Bootstrap e SCSS, com wireframe desenhado no Figma para a criação e estilização do projeto e suas funcionalidades.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/odavibatista",
-      figmaUrl: "https://www.figma.com/file/gnttWmAfu7TyKYY1WHzHGw/Portfolio---V2?type=design&node-id=3-14&mode=design&t=hA68nkqzdyHtvUgB-0",
+  {
+      id: 20,
+      imgUrl: "https://i.imgur.com/uKqwLPN.jpeg",
+      title: "Itaim Esfihas",
+      briefing: "Case de rebranding e de construção de site e refatoração das redes sociais de um restaurante de longa data da Zona Sul de São Paulo.",
+      deployUrl: "https://itaimesfihas.com.br/",
+      ghUrl: "",
+      figmaUrl: "https://guedesdesignc.myportfolio.com/itaim-esfihas-rebranding",
       docs: '',
       dbUrl: '',
       type: "front-end",
+      featured: true,
       technologies: [
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-          name: "Angular"
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          name: "TypeScript"
         },
-
+        
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-          name: "Bootstrap"
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+          name: "NextJs"
         },
 
         {
@@ -827,53 +892,8 @@ export class ProjectsComponent {
         },
 
         {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
-
-        {
           url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
           name: "Figma"
-        },
-      ]
-    },
-
-  
-    {
-      id: 14,
-      imgUrl: "/assets/images/projects/veritas-back-end-slide.jpg",
-      title: "Project Veritas",
-      briefing: "Aplicação Full-stack desenvolvida em Express no back-end e Next no front-end, simulando um serviço de aprendizado virtual de ciências humanas e sociais.",
-      deployUrl: "",
-      ghUrl: "https://github.com/odavibatista/project-veritas-frontend",
-      figmaUrl: "",
-      docs: '',
-      dbUrl: 'https://github.com/odavibatista/project-veritas-backend',
-      type: "full-stack",
-      technologies: [
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-          name: "TypeScript"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
-          name: "sequelize"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-          name: "Postgres"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-          name: "Express"
-        },
-
-        {
-          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          name: "Node.js"
         },
       ]
     },
@@ -907,22 +927,39 @@ export class ProjectsComponent {
     }
   };
 
+  // add the preference for the featured === true appear first in the array, and then the rest of the projects ordered by id
   readonly projectSections = [
     {
       title: 'Full-stack',
-      projects: this.Projects.filter((project) => project.type === 'full-stack')
+      projects: this.Projects.filter((project) => project.type === 'full-stack').sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.id - b.id;
+      })
     },
     {
       title: 'Front-end',
-      projects: this.Projects.filter((project) => project.type === 'front-end')
+      projects: this.Projects.filter((project) => project.type === 'front-end').sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.id - b.id;
+      })
     },
     {
       title: 'Back-end',
-      projects: this.Projects.filter((project) => project.type === 'back-end')
+      projects: this.Projects.filter((project) => project.type === 'back-end').sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.id - b.id;
+      })
     },
     {
       title: 'Desktop / Apps',
-      projects: this.Projects.filter((project) => project.type === 'desktop')
+      projects: this.Projects.filter((project) => project.type === 'desktop').sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.id - b.id;
+      })
     }
   ].map((section) => ({
     ...section,
