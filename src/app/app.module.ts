@@ -30,6 +30,7 @@ import { WhatsappComponent } from './components/common/icons/whatsapp/whatsapp.c
 import { ResumeComponent } from './components/common/icons/resume/resume.component';
 import { ClientsComponent } from './components/pages/services/clients/clients.component';
 import { ServicesListComponent } from './components/pages/services/services-list/services-list.component';
+import { CoreExpertiseComponent } from './components/pages/about/core-expertise/core-expertise.component';
 
 export function playerFactory(): any {
   return import('lottie-web');
@@ -61,6 +62,7 @@ export function playerFactory(): any {
     ResumeComponent,
     ClientsComponent,
     ServicesListComponent,
+    CoreExpertiseComponent,
   ],
   imports: [
     BrowserModule,

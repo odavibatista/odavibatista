@@ -1,0 +1,17 @@
+<section class="coreExpertise">
+  <h2 class="expertiseTitle">
+    Especialidades
+  </h2>
+
+  <div class="expertiseGrid">
+
+    <div class="expertiseCard" *ngFor="let exp of CoreExpertise; let i = index">
+      <h3>{{ exp.title }}</h3>
+
+      <p>
+        {{ exp.description }}
+      </p>
+    </div>
+
+  </div>
+</section>

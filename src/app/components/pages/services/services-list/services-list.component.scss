@@ -13,6 +13,20 @@
   }
 }
 
+.servicesSubtitle {
+  max-width: 850px;
+
+  margin: -20px auto 40px;
+
+  text-align: center;
+
+  color: $dark;
+
+  font-family: $q;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 .servicesCards {
   display: flex;
   flex-direction: row;

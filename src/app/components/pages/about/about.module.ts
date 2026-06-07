@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 import { AboutRoutingModule } from './about-routing.module';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [CommonModule, AboutRoutingModule],
 })
 export class AboutModule {}

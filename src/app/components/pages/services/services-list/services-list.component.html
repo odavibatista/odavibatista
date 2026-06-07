@@ -1,11 +1,23 @@
 <div>
-  <h1 class="servicesTitle">Serviços que trazem <span>qualidade</span></h1>
+  <h1 class="servicesTitle">
+    Soluções & <span>Especialidades</span>
+  </h1>
+
+  <p class="servicesSubtitle">
+    Arquitetura, engenharia e liderança técnica aplicadas à construção
+    de sistemas seguros, escaláveis e orientados a resultados.
+  </p>
+
   <div class="servicesCards">
-    <div class="serviceCard" *ngFor="let tech of Services; let i = index">
+    <div class="serviceCard" *ngFor="let tech of Services">
       <img src="{{ tech.url }}" alt="{{ tech.title }}" class="serviceImg" />
+
       <div>
         <p class="serviceTitle">{{ tech.title }}</p>
-        <p class="serviceDesc">{{ tech.description }}</p>
+
+        <p class="serviceDesc">
+          {{ tech.description }}
+        </p>
       </div>
     </div>
   </div>
